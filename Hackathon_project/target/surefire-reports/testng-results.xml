@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="40" passed="39" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T11:06:00 IST" name="Suite" finished-at="2024-02-06T11:07:32 IST" duration-ms="92763">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T11:06:00 IST" name="Main" finished-at="2024-02-06T11:07:32 IST" duration-ms="92763">
+      <class name="TestCases.UI_CheckForInterestRATECalc">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:00 IST" name="setup" finished-at="2024-02-06T11:06:11 IST" duration-ms="11297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="search_action()[pri:1, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:11 IST" name="search_action" finished-at="2024-02-06T11:06:13 IST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_action -->
+        <test-method signature="search()[pri:2, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:13 IST" name="search" finished-at="2024-02-06T11:06:14 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method signature="open_webpage()[pri:3, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:16 IST" name="open_webpage" finished-at="2024-02-06T11:06:22 IST" duration-ms="6895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_webpage -->
+        <test-method signature="clickONCarloan()[pri:4, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:23 IST" name="clickONCarloan" finished-at="2024-02-06T11:06:23 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickONCarloan -->
+        <test-method signature="refreshPage()[pri:5, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:23 IST" name="refreshPage" finished-at="2024-02-06T11:06:24 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="load_EMICalculator_LINK()[pri:6, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:24 IST" name="load_EMICalculator_LINK" finished-at="2024-02-06T11:06:39 IST" duration-ms="14909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_EMICalculator_LINK -->
+        <test-method signature="HomeLoan_Validation()[pri:7, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:40 IST" name="HomeLoan_Validation" finished-at="2024-02-06T11:06:44 IST" duration-ms="4062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLoan_Validation -->
+        <test-method signature="setHomeValue_InCalculator()[pri:9, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:44 IST" name="setHomeValue_InCalculator" finished-at="2024-02-06T11:06:44 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setHomeValue_InCalculator -->
+        <test-method signature="setDownPayment_InCalculator()[pri:10, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:44 IST" name="setDownPayment_InCalculator" finished-at="2024-02-06T11:06:45 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDownPayment_InCalculator -->
+        <test-method signature="setting_LoanInsurance_Amount()[pri:11, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:45 IST" name="setting_LoanInsurance_Amount" finished-at="2024-02-06T11:06:46 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setting_LoanInsurance_Amount -->
+        <test-method signature="Loan_Amt_Validation()[pri:12, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:46 IST" name="Loan_Amt_Validation" finished-at="2024-02-06T11:06:46 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_Amt_Validation -->
+        <test-method signature="set_Interest_Rate()[pri:13, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:46 IST" name="set_Interest_Rate" finished-at="2024-02-06T11:06:47 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_Interest_Rate -->
+        <test-method signature="Setting_Loan_Duration()[pri:14, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:47 IST" name="Setting_Loan_Duration" finished-at="2024-02-06T11:06:48 IST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_Loan_Duration -->
+        <test-method signature="Loan_charges_set()[pri:15, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:48 IST" name="Loan_charges_set" finished-at="2024-02-06T11:06:52 IST" duration-ms="4304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_charges_set -->
+        <test-method signature="Loan_StartMonthAndYear_calenderOperations()[pri:16, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:52 IST" name="Loan_StartMonthAndYear_calenderOperations" finished-at="2024-02-06T11:06:52 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loan_StartMonthAndYear_calenderOperations -->
+        <test-method signature="LoanStartMonthAndYear_setting()[pri:17, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:53 IST" name="LoanStartMonthAndYear_setting" finished-at="2024-02-06T11:06:53 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanStartMonthAndYear_setting -->
+        <test-method signature="setting_OneTimeExpenses()[pri:18, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:53 IST" name="setting_OneTimeExpenses" finished-at="2024-02-06T11:06:56 IST" duration-ms="2310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setting_OneTimeExpenses -->
+        <test-method signature="propertyTaxesperyear()[pri:19, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:56 IST" name="propertyTaxesperyear" finished-at="2024-02-06T11:06:58 IST" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- propertyTaxesperyear -->
+        <test-method signature="HomeInsurancePerYear_setting()[pri:20, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:06:58 IST" name="HomeInsurancePerYear_setting" finished-at="2024-02-06T11:07:01 IST" duration-ms="3253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeInsurancePerYear_setting -->
+        <test-method signature="SettingMaintenanceExpenses()[pri:21, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:02 IST" name="SettingMaintenanceExpenses" finished-at="2024-02-06T11:07:02 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingMaintenanceExpenses -->
+        <test-method signature="implementing_ExcelMethods_toStoreData()[pri:22, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:02 IST" name="implementing_ExcelMethods_toStoreData" finished-at="2024-02-06T11:07:07 IST" duration-ms="4665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implementing_ExcelMethods_toStoreData -->
+        <test-method signature="Navigation_toNextPage()[pri:23, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:07 IST" name="Navigation_toNextPage" finished-at="2024-02-06T11:07:10 IST" duration-ms="2896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Navigation_toNextPage -->
+        <test-method signature="validation_Of_EMI_Calculator()[pri:24, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:10 IST" name="validation_Of_EMI_Calculator" finished-at="2024-02-06T11:07:10 IST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validation_Of_EMI_Calculator -->
+        <test-method signature="validationOf_Loan_Amount_Calculator()[pri:25, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:11 IST" name="validationOf_Loan_Amount_Calculator" finished-at="2024-02-06T11:07:11 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOf_Loan_Amount_Calculator -->
+        <test-method signature="validationOf_Loan_Tenure_Calculator()[pri:26, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:11 IST" name="validationOf_Loan_Tenure_Calculator" finished-at="2024-02-06T11:07:11 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOf_Loan_Tenure_Calculator -->
+        <test-method signature="validationOf_Loan_Interest_Calculator()[pri:27, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:11 IST" name="validationOf_Loan_Interest_Calculator" finished-at="2024-02-06T11:07:11 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOf_Loan_Interest_Calculator -->
+        <test-method signature="does_setingLoan_Amount()[pri:28, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:11 IST" name="does_setingLoan_Amount" finished-at="2024-02-06T11:07:12 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- does_setingLoan_Amount -->
+        <test-method signature="does_setingLoan_Interest_Rate()[pri:29, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:12 IST" name="does_setingLoan_Interest_Rate" finished-at="2024-02-06T11:07:12 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- does_setingLoan_Interest_Rate -->
+        <test-method signature="LoanTennure_CalculatorIs_Present_Validation()[pri:30, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:12 IST" name="LoanTennure_CalculatorIs_Present_Validation" finished-at="2024-02-06T11:07:13 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoanTennure_CalculatorIs_Present_Validation -->
+        <test-method signature="does_setingLoan_FeesAndCharges()[pri:31, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:13 IST" name="does_setingLoan_FeesAndCharges" finished-at="2024-02-06T11:07:13 IST" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- does_setingLoan_FeesAndCharges -->
+        <test-method signature="do_setsLoan_Amount()[pri:37, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:14 IST" name="do_setsLoan_Amount" finished-at="2024-02-06T11:07:17 IST" duration-ms="3180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_setsLoan_Amount -->
+        <test-method signature="do_setsEMI_Amount()[pri:38, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:17 IST" name="do_setsEMI_Amount" finished-at="2024-02-06T11:07:27 IST" duration-ms="10347" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (88c533ce65e635ca43896b54f93ea1b8)] -> xpath: //input[@id='loanemi']] (tried for 10 second(s) with 1000 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (88c533ce65e635ca43896b54f93ea1b8)] -> xpath: //input[@id='loanemi']] (tried for 10 second(s) with 1000 milliseconds interval)
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:261)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+at PageObjects.BasePage.fluentWait(BasePage.java:53)
+at PageObjects.LOAN_Calculator_LoanTenureCalculator.setsEMI_Amount(LOAN_Calculator_LoanTenureCalculator.java:96)
+at TestCases.UI_CheckForLoanTennureCalc.do_setsEMI_Amount(UI_CheckForLoanTennureCalc.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_setsEMI_Amount -->
+        <test-method signature="do_setsLoan_AmountInterest_RATE()[pri:39, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:28 IST" name="do_setsLoan_AmountInterest_RATE" finished-at="2024-02-06T11:07:28 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_setsLoan_AmountInterest_RATE -->
+        <test-method signature="do_setsFees_AND_Charges_Amount()[pri:40, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:28 IST" name="do_setsFees_AND_Charges_Amount" finished-at="2024-02-06T11:07:28 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_setsFees_AND_Charges_Amount -->
+        <test-method signature="do_NavigateToNextPAGE()[pri:41, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:29 IST" name="do_NavigateToNextPAGE" finished-at="2024-02-06T11:07:29 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_NavigateToNextPAGE -->
+        <test-method signature="do_settingLoan_Amount()[pri:42, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:29 IST" name="do_settingLoan_Amount" finished-at="2024-02-06T11:07:29 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_settingLoan_Amount -->
+        <test-method signature="do_settingEMI_Amount()[pri:43, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:29 IST" name="do_settingEMI_Amount" finished-at="2024-02-06T11:07:30 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_settingEMI_Amount -->
+        <test-method signature="do_setingLoan_Tennure()[pri:44, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:30 IST" name="do_setingLoan_Tennure" finished-at="2024-02-06T11:07:30 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_setingLoan_Tennure -->
+        <test-method signature="do_setingLoan_FeesAndCharges()[pri:45, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:30 IST" name="do_setingLoan_FeesAndCharges" finished-at="2024-02-06T11:07:31 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_setingLoan_FeesAndCharges -->
+        <test-method signature="do_validation_Result()[pri:46, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:31 IST" name="do_validation_Result" finished-at="2024-02-06T11:07:31 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- do_validation_Result -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@5a62b2a4]" started-at="2024-02-06T11:07:31 IST" name="tearDown" finished-at="2024-02-06T11:07:32 IST" duration-ms="1203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.UI_CheckForInterestRATECalc -->
+    </test> <!-- Main -->
+  </suite> <!-- Suite -->
+</testng-results>

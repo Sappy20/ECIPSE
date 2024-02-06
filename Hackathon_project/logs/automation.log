@@ -1,0 +1,23 @@
+14:33:34.520 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the EMI Amount in the inputbox  *******
+14:33:34.739 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating the value stored in the inputbox  *******
+14:33:34.760 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ____________________________________________ *******
+14:33:34.961 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the years for which the LOAN is applied for  *******
+14:33:35.156 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validation of value inside the inputbox  *******
+14:33:35.179 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** __________________________________________ *******
+14:33:35.386 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
+14:33:35.386 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the amount for FEES and CHARGES inside the inputbox  *******
+14:33:35.562 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating the  value inside the unputbox  *******
+14:33:35.588 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _____________________________________ *******
+14:33:35.766 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** The final outcome is stored and validated after the calculation  *******
+14:33:35.792 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  AUTOMATION COMPLETED *******
+14:33:35.792 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****     ===================================================== *******
+14:33:35.792 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _______________________________________________________________ *******
+15:10:44.405 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303447\eclipse-workspace\Hackathon_project\TestCaseGrouping.xml
+
+15:11:08.777 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303447\eclipse-workspace\Hackathon_project\TestCaseGrouping.xml
+
+15:11:30.465 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303447\eclipse-workspace\Hackathon_project\TestCaseGrouping.xml
+
