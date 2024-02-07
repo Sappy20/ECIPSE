@@ -38,6 +38,9 @@ public class BaseClass {
         options.addArguments("--headless"); // Enable headless mode
         // for headless testing just uncomment this part and typecast options to driver
         */
+		
+		if(p.getProperty("execution_env").equals("local")) {
+			// Launching browser based on choice
 		switch(br.toLowerCase())
 		{
 		case "chrome": driver= new ChromeDriver(); break;
@@ -46,12 +49,15 @@ public class BaseClass {
 					return;
 		
 		}
+		}
+		
+		
 		driver.manage().deleteAllCookies();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		
 	}
 	
