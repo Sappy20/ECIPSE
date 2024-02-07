@@ -1,0 +1,43 @@
+package TestCases;
+
+import java.io.IOException;
+
+import org.testng.annotations.Test;
+
+import PageObjects.EMI_Calculator;
+import TestBase.BaseClass;
+
+public class EMI_CalculatorHomePage_TEST extends BaseClass{
+
+	EMI_Calculator emC;
+	
+	@Test(priority=4)
+	public void clickONCarloan() throws IOException
+	{
+	EMI_Calculator emC = new EMI_Calculator(driver);
+	emC.carloan_click();
+	}
+	
+	@Test(priority=5)
+	public void validate_drpdown()
+	{
+		EMI_Calculator emC = new EMI_Calculator(driver);
+		emC.drp_down();
+		
+	}
+	
+	@Test(priority=6)
+	public void refreshPage()
+	{
+		EMI_Calculator emC = new EMI_Calculator(driver);
+		emC.page_reload();
+		
+	}
+	
+	@Test(priority=7)
+	public void load_EMICalculator_LINK() throws InterruptedException
+	{
+		EMI_Calculator emC = new EMI_Calculator(driver);
+	emC.goToCalculator();
+	}
+}

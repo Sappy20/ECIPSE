@@ -1,0 +1,82 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.HomeLoanEMICalculator;
+
+
+public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
+	
+	  
+	@Test(priority=7)
+	public void HomeLoan_Validation()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI.validateHomeLoanEmiCalculator();
+	}
+	
+	@Test(priority=8)
+	public void advertisement_handling()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI.handleAdvertisement();
+	}
+	
+	@Test(priority=9)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		
+	}
+	
+	@Test(priority=10)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		
+	}
+	
+	@Test(priority=11)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		
+	}
+	
+
+	@Test(piority=12)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		
+	}
+	
+	@Test(piority=13)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		
+	}
+	
+	@Test(piority=14)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		
+	}
+	
+	@Test(piority=15)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		
+	}
+	
+	@Test(piority=16)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		
+	}
+	
+}

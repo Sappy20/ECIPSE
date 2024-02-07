@@ -1,0 +1,5 @@
+package PageObjects;
+
+public class UI_Check_LOAN_Calculator_InterestRateCalculator {
+
+}

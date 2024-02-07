@@ -1,0 +1,66 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.UI_Check_LOAN_Calculator_LoanTenureCalculator;
+
+public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
+
+	
+	@Test(priority=42)
+	public void do_NavigateToNextPAGE()
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		
+		ui_Tenure.NavigateToNextPAGE();
+		
+	}
+	
+	@Test(priority=43)
+	public void do_NavigateToNextPAGE()
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		
+		ui_Tenure.NavigateToNextPAGE();
+		
+	}
+	
+	
+	@Test(priority=44)
+	public void do_NavigateToNextPAGE()
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		
+		ui_Tenure.NavigateToNextPAGE();
+		
+	}
+	
+	
+	@Test(priority=45)
+	public void do_NavigateToNextPAGE()
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		
+		ui_Tenure.NavigateToNextPAGE();
+		
+	}
+	
+	
+	@Test(priority=46)
+	public void do_NavigateToNextPAGE()
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		
+		ui_Tenure.NavigateToNextPAGE();
+		
+	}
+	
+	
+	
+	
+}

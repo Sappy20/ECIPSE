@@ -1,0 +1,69 @@
+URL = https://www.google.com/
+execution_environment = local
+# HOME LOAN EMI
+ 
+		#Car Loan Details
+	
+		carAmount = 5,00,000
+		interestRate = 9.5
+		loanTenure = 1
+ 
+		#Home Loan Details
+	
+		homeValue = 60,00,000
+		downPaymentPercentage = 30
+		downPaymentInRupees = 18,00,000
+		loanInsurance = 10,00,000
+		firstLoanAmount = 40,00,000
+		finalLoanAmount = 42,00,000
+		homeLoanInterestRate = 9
+		loanTenureInYear = 12
+		loanTenureInMonths = 144
+		loanChargesPercentage = 0.25
+		loanChargesInRupees =11,250
+		
+		
+		#Homeowner Expenses
+	
+		oneTimeExpensesPercentage = 10
+
+		propertyTaxes/yearPercentage = 0.25
+	
+		homeInsurance/yesrPercentage = 0.05
+	
+		maintenanceExpenses/month = 3000
+		
+		#EMI Calculator (UI)
+	
+		loanAmount = 50,00,000
+		interestRateEMICalculator = 10.75
+		loanTenureEMICalculator = 4
+		emiCalculatorLoanTenureInMonths = 48
+		loanChargesLoanCalculator = 12000
+		
+		# LOAN AMOUNT Calculator  (UI)
+		
+		EMIAmount=75,000.00
+		InterestRATE=9.5
+		LoanTennure=5
+		FEESandCharges=22000
+		
+		
+		# LOAN TENNURE Calculator  (UI)
+		
+		Loan_Amount=74,00,000
+		EMI=74,969.52
+		INTEREST_rate=7
+		Fees&Charges=22000
+		
+		# INTEREST RATE Calculator  (UI)
+		
+		LOAN_AMOUNT=74,00,000
+		EMI=75,099.75
+		Loan_TENNURE=15
+		FEES_Charges=30000
+		
+		
+		
+		
+		

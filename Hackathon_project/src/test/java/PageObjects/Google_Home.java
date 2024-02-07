@@ -41,8 +41,9 @@ WebElement calculator_link ;
 	  //search for a website in google homepage
 	  fluentWait(google_searchinput);
 	  google_searchinput.click();
-	  google_searchinput.clear();
+//	  google_searchinput.clear();
 
+	
 	  google_searchinput.sendKeys("emi calculator");
 	  
 	  Thread.sleep(1000);

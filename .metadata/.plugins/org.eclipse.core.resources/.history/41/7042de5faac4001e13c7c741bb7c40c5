@@ -1,0 +1,33 @@
+10:12:15.272 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating if DatePicker  is present on the page *******
+10:12:15.716 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** __________________________________ *******
+10:12:15.718 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Setting the DATE to Mar, 2024  *******
+10:12:16.105 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ____________________________ *******
+10:12:16.474 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the One Time Expenses in percentage format *******
+10:12:16.794 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ================================== *******
+10:12:16.794 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Converting the percentage value into Rupees format by clicking on the rupees converter button *******
+10:12:19.030 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Returning the string that stored the final data outcome in the inputbox for One Time Expenses *******
+10:12:19.365 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ================================= *******
+10:12:19.366 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
+10:12:19.640 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Setting Property Taxes to 0.25%  Per Year in the  'Taxes per year' inputbox  *******
+10:12:21.800 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ___________________________________________________ *******
+10:12:21.800 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Converting the percentage value to Rupees format *******
+10:12:21.845 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _________________________________ *******
+10:12:21.845 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Returning the String that stored the final value in rupees format after calculation in the inputbox *******
+10:12:21.845 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _________________________________ *******
+10:12:22.212 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Setting the values for Home Insurance Per Year inside the corresponding inputbox *******
+10:12:22.458 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _____________________________ *******
+10:12:22.459 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Clicking on the Rupees convertor button available on the webpage *******
+10:12:25.792 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _____________________________ *******
+10:12:25.852 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Returning the String that stored the final value in rupees from the inputbox *******
+10:12:25.852 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _____________________________ *******
+10:12:26.293 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the value foe Maintenance Expenses Per Month inputbox  *******
+10:12:26.635 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ================================== *******
+10:12:26.953 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Reading the data into a EXCEL SHEET *******
+10:12:32.020 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** __________________________ *******
+10:12:32.319 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Go to the next Page by clicking on the Calculators Dropdown *******
+10:12:32.319 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
+10:12:32.319 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Click on the HLOAN CALCULATORS link showed in the dropdown  *******
+10:12:32.319 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ___________________ *******
+10:12:32.319 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Navigated to the Loan Calculators Page for UI Testing  *******
+10:12:35.639 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _____________________________ *******
+10:12:36.044 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ******      ********

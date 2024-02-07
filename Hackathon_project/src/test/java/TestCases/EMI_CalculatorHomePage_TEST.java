@@ -8,7 +8,7 @@ import PageObjects.EMI_Calculator;
 
 public class EMI_CalculatorHomePage_TEST extends GoogleHome_Test{
 	
-	@Test(priority=4,groups= {"sanity","regression","master"})
+	@Test(priority=4,groups= {"smoke","sanity"})
 	public void clickONCarloan() throws IOException
 	{
 		logger.info("*****  *******");
@@ -30,13 +30,14 @@ public class EMI_CalculatorHomePage_TEST extends GoogleHome_Test{
 		
 	}
 	
-	@Test(priority=6,groups= {"sanity","regression","master"})
+	@Test(priority=6,groups= {"smoke","sanity"})
 	public void load_EMICalculator_LINK() throws InterruptedException, IOException
 	{
 		logger.info("***** Clicking on the 'CALCULATORS ' text to show the dropdown and navigate to Calculator Main Page  *******");
 		logger.info("***** __________________________________ *******");
 		EMI_Calculator emC = new EMI_Calculator(driver);
 	emC.goToCalculator();
+	System.out.println("\n");
 	logger.info("***** =================================================  *******");
 	}
 }

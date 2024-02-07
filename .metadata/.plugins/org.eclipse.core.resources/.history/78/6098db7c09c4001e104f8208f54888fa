@@ -1,0 +1,66 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.UI_Check_LOAN_Calculator_InterestRateCalculator;
+import PageObjects.UI_Check_LOAN_Calculator_LoanTenureCalculator;
+
+public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
+
+	
+	@Test(priority=42)
+	public void do_settingLoan_Amount()
+	{
+
+		UI_Check_LOAN_Calculator_InterestRateCalculator  ui_Interest = new UI_Check_LOAN_Calculator_InterestRateCalculator(driver);
+		//String LoanAmounts = 5000000 
+		ui_Interest.settingLoan_Amount("5000000");
+		
+	}
+	
+	@Test(priority=43)
+	public void do_settingEMI_Amount()
+	{
+
+		UI_Check_LOAN_Calculator_InterestRateCalculator  ui_Interest = new UI_Check_LOAN_Calculator_InterestRateCalculator(driver);
+		//String EMI_Amount = 10000 
+		ui_Interest.settingEMI_Amount("10000");
+		
+	}
+	
+	@Test(priority=44)
+	public void do_settingLoan_Amount()
+	{
+
+		UI_Check_LOAN_Calculator_InterestRateCalculator  ui_Interest = new UI_Check_LOAN_Calculator_InterestRateCalculator(driver);
+		//String LoanAmounts = 5000000 
+		ui_Interest.settingLoan_Amount("5000000");
+		
+	}
+	
+	@Test(priority=45)
+	public void do_settingLoan_Amount()
+	{
+
+		UI_Check_LOAN_Calculator_InterestRateCalculator  ui_Interest = new UI_Check_LOAN_Calculator_InterestRateCalculator(driver);
+		//String LoanAmounts = 5000000 
+		ui_Interest.settingLoan_Amount("5000000");
+		
+	}
+	
+	@Test(priority=42)
+	public void do_settingLoan_Amount()
+	{
+
+		UI_Check_LOAN_Calculator_InterestRateCalculator  ui_Interest = new UI_Check_LOAN_Calculator_InterestRateCalculator(driver);
+		//String LoanAmounts = 5000000 
+		ui_Interest.settingLoan_Amount("5000000");
+		
+	}
+	
+	
+	
+	
+	
+	
+}

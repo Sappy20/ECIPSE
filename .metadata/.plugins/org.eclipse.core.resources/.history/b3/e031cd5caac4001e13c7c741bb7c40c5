@@ -1,0 +1,46 @@
+17:13:32.421 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303447\eclipse-workspace\Hackathon_project\testng.xml
+
+17:13:55.821 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303447\eclipse-workspace\Hackathon_project\testng.xml
+
+10:11:02.865 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2303447\eclipse-workspace\Hackathon_project\testng.xml
+
+10:11:33.052 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Initiating a serach input to the Google searchbox *******
+10:11:35.111 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Clicking on Google Search button that appears after some input is provided to searchbar *******
+10:11:38.409 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Website on which we will test is opened *******
+10:11:47.312 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
+10:11:47.676 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Click on CarLoan icon in the opening page to evaluate and also check UI  *******
+10:11:47.692 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****________________________________  *******
+10:11:47.693 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** All data are provided here through properties files  *******
+10:11:47.898 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  ______________________________*******
+10:11:48.398 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Refreshing the page to reset all DATA *******
+10:11:49.443 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _______________________________ *******
+10:11:49.914 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Clicking on the 'CALCULATORS ' text to show the dropdown and navigate to Calculator Main Page  *******
+10:11:49.914 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _____________ *******
+10:11:59.312 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ___________________________ *******
+10:11:59.627 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating the Page through Page heading validation *******
+10:11:59.627 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ___________________________ *******
+10:12:04.122 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Input value to HOME VALUE(HV) Input box in page *******
+10:12:04.125 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _______________________ *******
+10:12:04.612 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
+10:12:05.036 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ___Input value to Margin OR Down Payment(DP) Inputbox present in webpage ____ *******
+10:12:05.038 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****___________________*******
+10:12:05.515 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Converting  The downpayment from PERCENTAGE to RUPEES  *******
+10:12:06.075 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Returning the value that is being input to the inputbox  *******
+10:12:06.534 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _________________________ *******
+10:12:06.985 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Input data to LOAN INSURANCE (LI) inputbox *******
+10:12:07.412 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ____________________________ *******
+10:12:07.525 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Returning the values from the inputbox that is stored in a String *******
+10:12:07.937 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________ *******
+10:12:08.629 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the Interest Rate in percentage in the inputbox *******
+10:12:09.083 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ______________________  *******
+10:12:09.558 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the Duration or Tenure for which the Loan is being applied *******
+10:12:09.641 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ______________________ *******
+10:12:09.642 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  Converting the tenure from YEARS to MONTHS *******
+10:12:09.799 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ___________________________ *******
+10:12:10.155 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Setting the Loan Fees and Charges required for processing the LOAN  *******
+10:12:10.157 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** __________________________________ *******
+10:12:14.725 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Converting the input data from PERCENTAGE to RUPEES by clicking on the rupees button on the webpage  *******
+10:12:15.079 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ___________________________  *******

@@ -1,0 +1,45 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.UI_Check_LOAN_Calculator_LoanEMI;
+
+public class UI_CheckForCalculators extends HomeLoanEMICalculator_Test{
+	
+	
+	@Test(priority=24)
+	public void emiCalculator_Is_Present_Validation()
+	{
+	UI_Check_LOAN_Calculator_LoanEMI  Calc_UI=new UI_Check_LOAN_Calculator_LoanEMI(driver);
+	// checking if 1st calculator type is displayed or not 
+	Calc_UI.Validation_Of_EMICalculator();
+	}
+	
+	@Test(priority=25)
+	public void LoanAmountCalculator_Is_Present_Validation()
+	{
+	UI_Check_LOAN_Calculator_LoanEMI  Calc_UI=new UI_Check_LOAN_Calculator_LoanEMI(driver);
+	// checking if 2nd calculator type or LOAN AMOUNT CALCULATOR  is displayed or not 
+	Calc_UI.Validation_Of_LoanAmountCalculator();
+	}
+	
+	@Test(priority=26)
+	public void LoanTennure_CalculatorIs_Present_Validation()
+	{
+	UI_Check_LOAN_Calculator_LoanEMI  Calc_UI=new UI_Check_LOAN_Calculator_LoanEMI(driver);
+	// checking if 3rd calculator type or Loan Tenure Calculator is displayed or not
+	Calc_UI.Validation_Of_LoanTennureCalculator();
+	}
+	
+	@Test(priority=27)
+	public void LoanInterest_CalculatorIs_Present_Validation()
+	{
+	UI_Check_LOAN_Calculator_LoanEMI  Calc_UI=new UI_Check_LOAN_Calculator_LoanEMI(driver);
+	// checking whether Loan_Interest Calculator is visible or not
+	
+	Calc_UI.Validation_Of_Loan_InterestCalculator();
+	}
+	
+	
+	
+}

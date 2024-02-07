@@ -1,0 +1,21 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.UI_Check_LOAN_Calculator_LoanEMI;
+
+public class UI_CheckForLoanTennureCalc extends UI_CheckForLoanEMICalc {
+	
+	
+	
+	@Test(priority=37)
+	public void needTo_NavigateToNxtPage()
+	{
+
+		UI_Check_LOAN_Calculator_LoanEMI  ui_EMI = new UI_Check_LOAN_Calculator_LoanEMI(driver);
+		// String FEES =20000 here
+		ui_EMI.NavigateToNxtPage();
+		
+	}
+
+}

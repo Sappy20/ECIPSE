@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="40" passed="39" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T14:32:16 IST" name="TestCseGrouping" finished-at="2024-02-06T14:33:37 IST" duration-ms="80853">
+  <suite started-at="2024-02-07T18:02:00 IST" name="Failed suite [Suite]" finished-at="2024-02-07T18:02:50 IST" duration-ms="49873">
     <groups>
+      <group name="sanity">
+        <method signature="HomeLoanEMICalculator_Test.implementing_ExcelMethods_toStoreData()[pri:22, instance:TestCases.UI_CheckForInterestRATECalc@2b46a8c1]" name="implementing_ExcelMethods_toStoreData" class="TestCases.HomeLoanEMICalculator_Test"/>
+        <method signature="HomeLoanEMICalculator_Test.implementing_ExcelMethods_toStoreData()[pri:22, instance:TestCases.UI_CheckForInterestRATECalc@3704122f]" name="implementing_ExcelMethods_toStoreData" class="TestCases.HomeLoanEMICalculator_Test"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2024-02-06T14:32:16 IST" name="Grouping Functionalities" finished-at="2024-02-06T14:33:37 IST" duration-ms="80853">
+    <test started-at="2024-02-07T18:02:00 IST" name="chrometest(failed)" finished-at="2024-02-07T18:02:24 IST" duration-ms="24714">
       <class name="TestCases.UI_CheckForInterestRATECalc">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:16 IST" name="setup" finished-at="2024-02-06T14:32:25 IST" duration-ms="8709" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@2b46a8c1]" started-at="2024-02-07T18:02:00 IST" name="setup" finished-at="2024-02-07T18:02:13 IST" duration-ms="13235" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,148 +27,59 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="search_action()[pri:1, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:25 IST" name="search_action" finished-at="2024-02-06T14:32:26 IST" duration-ms="1380" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search_action -->
-        <test-method signature="search()[pri:2, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:26 IST" name="search" finished-at="2024-02-06T14:32:27 IST" duration-ms="575" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method signature="open_webpage()[pri:3, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:29 IST" name="open_webpage" finished-at="2024-02-06T14:32:35 IST" duration-ms="6543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- open_webpage -->
-        <test-method signature="clickONCarloan()[pri:4, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:36 IST" name="clickONCarloan" finished-at="2024-02-06T14:32:36 IST" duration-ms="216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickONCarloan -->
-        <test-method signature="refreshPage()[pri:5, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:36 IST" name="refreshPage" finished-at="2024-02-06T14:32:37 IST" duration-ms="677" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- refreshPage -->
-        <test-method signature="load_EMICalculator_LINK()[pri:6, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:37 IST" name="load_EMICalculator_LINK" finished-at="2024-02-06T14:32:47 IST" duration-ms="9259" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- load_EMICalculator_LINK -->
-        <test-method signature="HomeLoan_Validation()[pri:7, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:47 IST" name="HomeLoan_Validation" finished-at="2024-02-06T14:32:51 IST" duration-ms="4075" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeLoan_Validation -->
-        <test-method signature="setHomeValue_InCalculator()[pri:9, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:51 IST" name="setHomeValue_InCalculator" finished-at="2024-02-06T14:32:51 IST" duration-ms="210" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setHomeValue_InCalculator -->
-        <test-method signature="setDownPayment_InCalculator()[pri:10, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:52 IST" name="setDownPayment_InCalculator" finished-at="2024-02-06T14:32:52 IST" duration-ms="461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setDownPayment_InCalculator -->
-        <test-method signature="setting_LoanInsurance_Amount()[pri:11, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:52 IST" name="setting_LoanInsurance_Amount" finished-at="2024-02-06T14:32:52 IST" duration-ms="161" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setting_LoanInsurance_Amount -->
-        <test-method signature="Loan_Amt_Validation()[pri:12, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:53 IST" name="Loan_Amt_Validation" finished-at="2024-02-06T14:32:53 IST" duration-ms="59" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Loan_Amt_Validation -->
-        <test-method signature="set_Interest_Rate()[pri:13, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:53 IST" name="set_Interest_Rate" finished-at="2024-02-06T14:32:53 IST" duration-ms="231" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- set_Interest_Rate -->
-        <test-method signature="Setting_Loan_Duration()[pri:14, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:53 IST" name="Setting_Loan_Duration" finished-at="2024-02-06T14:32:54 IST" duration-ms="390" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setting_Loan_Duration -->
-        <test-method signature="Loan_charges_set()[pri:15, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:54 IST" name="Loan_charges_set" finished-at="2024-02-06T14:32:58 IST" duration-ms="4281" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Loan_charges_set -->
-        <test-method signature="Loan_StartMonthAndYear_calenderOperations()[pri:16, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:58 IST" name="Loan_StartMonthAndYear_calenderOperations" finished-at="2024-02-06T14:32:59 IST" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Loan_StartMonthAndYear_calenderOperations -->
-        <test-method signature="LoanStartMonthAndYear_setting()[pri:17, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:59 IST" name="LoanStartMonthAndYear_setting" finished-at="2024-02-06T14:32:59 IST" duration-ms="188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoanStartMonthAndYear_setting -->
-        <test-method signature="setting_OneTimeExpenses()[pri:18, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:32:59 IST" name="setting_OneTimeExpenses" finished-at="2024-02-06T14:33:01 IST" duration-ms="2249" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setting_OneTimeExpenses -->
-        <test-method signature="propertyTaxesperyear()[pri:19, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:02 IST" name="propertyTaxesperyear" finished-at="2024-02-06T14:33:04 IST" duration-ms="2254" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- propertyTaxesperyear -->
-        <test-method signature="HomeInsurancePerYear_setting()[pri:20, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:04 IST" name="HomeInsurancePerYear_setting" finished-at="2024-02-06T14:33:07 IST" duration-ms="3236" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomeInsurancePerYear_setting -->
-        <test-method signature="SettingMaintenanceExpenses()[pri:21, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:08 IST" name="SettingMaintenanceExpenses" finished-at="2024-02-06T14:33:08 IST" duration-ms="145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SettingMaintenanceExpenses -->
-        <test-method signature="implementing_ExcelMethods_toStoreData()[pri:22, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:08 IST" name="implementing_ExcelMethods_toStoreData" finished-at="2024-02-06T14:33:12 IST" duration-ms="4559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- implementing_ExcelMethods_toStoreData -->
-        <test-method signature="Navigation_toNextPage()[pri:23, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:13 IST" name="Navigation_toNextPage" finished-at="2024-02-06T14:33:15 IST" duration-ms="2827" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Navigation_toNextPage -->
-        <test-method signature="validation_Of_EMI_Calculator()[pri:24, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:16 IST" name="validation_Of_EMI_Calculator" finished-at="2024-02-06T14:33:16 IST" duration-ms="68" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validation_Of_EMI_Calculator -->
-        <test-method signature="validationOf_Loan_Amount_Calculator()[pri:25, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:16 IST" name="validationOf_Loan_Amount_Calculator" finished-at="2024-02-06T14:33:16 IST" duration-ms="40" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validationOf_Loan_Amount_Calculator -->
-        <test-method signature="validationOf_Loan_Tenure_Calculator()[pri:26, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:16 IST" name="validationOf_Loan_Tenure_Calculator" finished-at="2024-02-06T14:33:16 IST" duration-ms="47" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validationOf_Loan_Tenure_Calculator -->
-        <test-method signature="validationOf_Loan_Interest_Calculator()[pri:27, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:16 IST" name="validationOf_Loan_Interest_Calculator" finished-at="2024-02-06T14:33:16 IST" duration-ms="46" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validationOf_Loan_Interest_Calculator -->
-        <test-method signature="does_setingLoan_Amount()[pri:28, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:17 IST" name="does_setingLoan_Amount" finished-at="2024-02-06T14:33:17 IST" duration-ms="150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- does_setingLoan_Amount -->
-        <test-method signature="does_setingLoan_Interest_Rate()[pri:29, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:17 IST" name="does_setingLoan_Interest_Rate" finished-at="2024-02-06T14:33:17 IST" duration-ms="219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- does_setingLoan_Interest_Rate -->
-        <test-method signature="LoanTennure_CalculatorIs_Present_Validation()[pri:30, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:17 IST" name="LoanTennure_CalculatorIs_Present_Validation" finished-at="2024-02-06T14:33:18 IST" duration-ms="238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoanTennure_CalculatorIs_Present_Validation -->
-        <test-method signature="does_setingLoan_FeesAndCharges()[pri:31, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:18 IST" name="does_setingLoan_FeesAndCharges" finished-at="2024-02-06T14:33:18 IST" duration-ms="372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- does_setingLoan_FeesAndCharges -->
-        <test-method signature="do_setsLoan_Amount()[pri:37, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:18 IST" name="do_setsLoan_Amount" finished-at="2024-02-06T14:33:22 IST" duration-ms="3181" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- do_setsLoan_Amount -->
-        <test-method signature="do_setsEMI_Amount()[pri:38, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:22 IST" name="do_setsEMI_Amount" finished-at="2024-02-06T14:33:32 IST" duration-ms="10321" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="implementing_ExcelMethods_toStoreData()[pri:22, instance:TestCases.UI_CheckForInterestRATECalc@2b46a8c1]" started-at="2024-02-07T18:02:13 IST" name="implementing_ExcelMethods_toStoreData" finished-at="2024-02-07T18:02:23 IST" duration-ms="10163" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (739daf6da8bec25cdf4bf3aa21eb2cb7)] -> xpath: //input[@id='loanemi']] (tried for 10 second(s) with 1000 milliseconds interval)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='paymentschedule']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: unknown]]>
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [435ed8959f8c34a3273dbf2aa37c2d01, findElement {using=xpath, value=//div[@id='paymentschedule']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54222/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 435ed8959f8c34a3273dbf2aa37c2d01]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (739daf6da8bec25cdf4bf3aa21eb2cb7)] -> xpath: //input[@id='loanemi']] (tried for 10 second(s) with 1000 milliseconds interval)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='paymentschedule']"}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:261)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-at PageObjects.BasePage.fluentWait(BasePage.java:53)
-at PageObjects.LOAN_Calculator_LoanTenureCalculator.setsEMI_Amount(LOAN_Calculator_LoanTenureCalculator.java:96)
-at TestCases.UI_CheckForLoanTennureCalc.do_setsEMI_Amount(UI_CheckForLoanTennureCalc.java:38)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [435ed8959f8c34a3273dbf2aa37c2d01, findElement {using=xpath, value=//div[@id='paymentschedule']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54222/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 435ed8959f8c34a3273dbf2aa37c2d01
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy29.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:470)
+at PageObjects.HomeLoanEMICalculator.readData(HomeLoanEMICalculator.java:447)
+at TestCases.HomeLoanEMICalculator_Test.implementing_ExcelMethods_toStoreData(HomeLoanEMICalculator_Test.java:261)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -195,47 +110,126 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- do_setsEMI_Amount -->
-        <test-method signature="do_setsLoan_AmountInterest_RATE()[pri:39, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:32 IST" name="do_setsLoan_AmountInterest_RATE" finished-at="2024-02-06T14:33:33 IST" duration-ms="250" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- do_setsLoan_AmountInterest_RATE -->
-        <test-method signature="do_setsFees_AND_Charges_Amount()[pri:40, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:33 IST" name="do_setsFees_AND_Charges_Amount" finished-at="2024-02-06T14:33:33 IST" duration-ms="223" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- do_setsFees_AND_Charges_Amount -->
-        <test-method signature="do_NavigateToNextPAGE()[pri:41, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:33 IST" name="do_NavigateToNextPAGE" finished-at="2024-02-06T14:33:33 IST" duration-ms="63" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- do_NavigateToNextPAGE -->
-        <test-method signature="do_settingLoan_Amount()[pri:42, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:34 IST" name="do_settingLoan_Amount" finished-at="2024-02-06T14:33:34 IST" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- do_settingLoan_Amount -->
-        <test-method signature="do_settingEMI_Amount()[pri:43, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:34 IST" name="do_settingEMI_Amount" finished-at="2024-02-06T14:33:34 IST" duration-ms="241" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- do_settingEMI_Amount -->
-        <test-method signature="do_setingLoan_Tennure()[pri:44, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:34 IST" name="do_setingLoan_Tennure" finished-at="2024-02-06T14:33:35 IST" duration-ms="219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- do_setingLoan_Tennure -->
-        <test-method signature="do_setingLoan_FeesAndCharges()[pri:45, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:35 IST" name="do_setingLoan_FeesAndCharges" finished-at="2024-02-06T14:33:35 IST" duration-ms="203" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- do_setingLoan_FeesAndCharges -->
-        <test-method signature="do_validation_Result()[pri:46, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:35 IST" name="do_validation_Result" finished-at="2024-02-06T14:33:35 IST" duration-ms="27" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- do_validation_Result -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@329a1243]" started-at="2024-02-06T14:33:35 IST" name="tearDown" finished-at="2024-02-06T14:33:37 IST" duration-ms="1150" status="PASS">
+        </test-method> <!-- implementing_ExcelMethods_toStoreData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@2b46a8c1]" started-at="2024-02-07T18:02:23 IST" name="tearDown" finished-at="2024-02-07T18:02:24 IST" duration-ms="1195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.UI_CheckForInterestRATECalc -->
-    </test> <!-- Grouping Functionalities -->
-  </suite> <!-- TestCseGrouping -->
+    </test> <!-- chrometest(failed) -->
+    <test started-at="2024-02-07T18:02:25 IST" name="edgetest(failed)" finished-at="2024-02-07T18:02:50 IST" duration-ms="25000">
+      <class name="TestCases.UI_CheckForInterestRATECalc">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@3704122f]" started-at="2024-02-07T18:02:25 IST" name="setup" finished-at="2024-02-07T18:02:38 IST" duration-ms="13540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="implementing_ExcelMethods_toStoreData()[pri:22, instance:TestCases.UI_CheckForInterestRATECalc@3704122f]" started-at="2024-02-07T18:02:38 IST" name="implementing_ExcelMethods_toStoreData" finished-at="2024-02-07T18:02:48 IST" duration-ms="10036" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='paymentschedule']"}
+  (Session info: MicrosoftEdge=121.0.2277.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ee4b126077e43d6c05938bbf8b262d1e, findElement {using=xpath, value=//div[@id='paymentschedule']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54290}, msedge: {msedgedriverVersion: 121.0.2277.106 (3a400d91a81..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54290/devtoo..., se:cdpVersion: 121.0.2277.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee4b126077e43d6c05938bbf8b262d1e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='paymentschedule']"}
+  (Session info: MicrosoftEdge=121.0.2277.98)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [ee4b126077e43d6c05938bbf8b262d1e, findElement {using=xpath, value=//div[@id='paymentschedule']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 121.0.2277.98, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54290}, msedge: {msedgedriverVersion: 121.0.2277.106 (3a400d91a81..., userDataDir: C:\Windows\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54290/devtoo..., se:cdpVersion: 121.0.2277.98, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ee4b126077e43d6c05938bbf8b262d1e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy29.getWrappedElement(Unknown Source)
+at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:470)
+at PageObjects.HomeLoanEMICalculator.readData(HomeLoanEMICalculator.java:447)
+at TestCases.HomeLoanEMICalculator_Test.implementing_ExcelMethods_toStoreData(HomeLoanEMICalculator_Test.java:261)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- implementing_ExcelMethods_toStoreData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.UI_CheckForInterestRATECalc@3704122f]" started-at="2024-02-07T18:02:48 IST" name="tearDown" finished-at="2024-02-07T18:02:50 IST" duration-ms="1417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.UI_CheckForInterestRATECalc -->
+    </test> <!-- edgetest(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>

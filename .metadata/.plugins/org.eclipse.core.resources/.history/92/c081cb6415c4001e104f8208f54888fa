@@ -1,0 +1,69 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.UI_Check_LOAN_Calculator_LoanTenureCalculator;
+
+public class UI_CheckForLoanTennureCalc extends UI_CheckForLoanEMICalc {
+	
+	
+	
+	@Test(priority=37)
+	public void do_setsLoan_Amount() throws InterruptedException
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		//String LoanAmount= 90000 here
+		
+		ui_Tenure.setsLoan_Amount("90000");
+		ui_Tenure.Loan_amt_Validation();
+		
+	}
+	
+	@Test(priority=38)
+	public void do_setsEMI_Amount()
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		// String EMIAmt = 12000
+		ui_Tenure.setsEMI_Amount("12000");
+		
+		ui_Tenure.EMI_Amt_Validation();
+		
+	}
+	
+	@Test(priority=39)
+	public void do_setsLoan_AmountInterest_RATE()
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		//String RATE = 10
+		ui_Tenure.setsLoan_AmountInterest_RATE("10");
+		
+		ui_Tenure.Loan_Interest();
+	}
+	
+	@Test(priority=40)
+	public void do_setsFees_AND_Charges_Amount()
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		//String feesANDCharges = 10000
+		ui_Tenure.setsFees_AND_Charges_Amount("10000");
+		
+		ui_Tenure.Loan_Fees();
+		
+	}
+	
+	@Test(priority=41)
+	public void do_NavigateToNextPAGE()
+	{
+
+		UI_Check_LOAN_Calculator_LoanTenureCalculator  ui_Tenure = new UI_Check_LOAN_Calculator_LoanTenureCalculator(driver);
+		
+		ui_Tenure.NavigateToNextPAGE();
+		
+	}
+	
+
+}

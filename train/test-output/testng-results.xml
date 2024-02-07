@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-21T11:34:02 IST" name="Suite" finished-at="2023-12-21T11:34:02 IST" duration-ms="82">
+    <groups>
+    </groups>
+    <test started-at="2023-12-21T11:34:02 IST" name="Test" finished-at="2023-12-21T11:34:02 IST" duration-ms="82">
+      <class name="day1.FirstTest">
+        <test-method signature="openapp()[pri:1, instance:day1.FirstTest@611889f4]" started-at="2023-12-21T11:34:02 IST" name="openapp" finished-at="2023-12-21T11:34:02 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method signature="login()[pri:2, instance:day1.FirstTest@611889f4]" started-at="2023-12-21T11:34:02 IST" name="login" finished-at="2023-12-21T11:34:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:3, instance:day1.FirstTest@611889f4]" started-at="2023-12-21T11:34:02 IST" name="logout" finished-at="2023-12-21T11:34:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- day1.FirstTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

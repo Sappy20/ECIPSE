@@ -155,12 +155,12 @@ public class LOAN_Calculator_LoanAmtCalculator extends BasePage{
 		
 		//Action Methods
 		
-		public void setingLoan_Amount(String LoanAmts)
+		public void setingLoan_Amount(String EMI__Amts)
 		{
 			fluentWait(EMI_amt_inputbox);
 			// since sendKeys not working directly we are using CtrlA to set data permanently 
 			EMI_amt_inputbox.sendKeys(Keys.CONTROL +"a");
-			EMI_amt_inputbox.sendKeys(LoanAmts);
+			EMI_amt_inputbox.sendKeys(EMI__Amts);
 			
 			
 			

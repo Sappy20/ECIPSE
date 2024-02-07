@@ -1,0 +1,101 @@
+package PageObjects;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class EMI_Calculator extends BasePage {
+
+	public EMI_Calculator(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+
+ // 	calculator type link elements
+	@FindBy(xpath="//a[@href='#'][contains(text(),'Home Loan')]")
+	WebElement HomeLoan_main ;
+	
+	@FindBy(xpath="//a[@href='#'][contains(text(),'Personal Loan')]")
+	WebElement PersonalLoan_main ;
+	
+	@FindBy(xpath="//a[@href='#'][contains(text(),'Car Loan')]")
+	WebElement CarLoan_main ;
+	
+	// slider elements
+	@FindBy(xpath="(//span[@class='ui-slider-handle ui-corner-all ui-state-default'])[1]")
+	WebElement loanSlider_main ;
+	
+	@FindBy(xpath="(//span[@class='ui-slider-handle ui-corner-all ui-state-default'])[2]")
+	WebElement interestSlider_main ;
+	
+	
+	@FindBy(xpath="(//span[@class='ui-slider-handle ui-corner-all ui-state-default'])[3]")
+	WebElement tennureSlider_main ;
+	
+	
+	
+	@FindBy(xpath="//a[@id='menu-item-dropdown-2696']")  // list of dropdown
+	 WebElement  CALCULATORS_link ;
+	
+	@FindBy(xpath="//a[@title='EMI Calculator Widget']")
+	WebElement calculatorwidget ;   // just for validation 
+	
+	@FindBy(xpath="//a[@href='https://emicalculator.net/category/articles/']")  // for validation
+	 WebElement  ARTICLES ;
+	
+	@FindBy(xpath="//a[@href='https://emicalculator.net/category/reviews/']")  // for validation
+	 WebElement  PRODUCT_REVIEWS ;
+	
+	
+	@FindBy(xpath="//a[@href='https://emicalculator.net/category/news-opinion/']")  // for validation
+	 WebElement  NEWS_Opinions ;
+	
+	
+	
+	@FindBy(xpath="//ul[@class='dropdown-menu show']")
+	List<WebElement> dropdown_options ;
+	
+	@FindBy(xpath="//ul[@class='dropdown-menu show']")
+	List<WebElement> dropdown_options ;
+	
+	@FindBy(xpath="//ul[@class='dropdown-menu show']")
+	List<WebElement> dropdown_options ;
+	
+	@FindBy(xpath="//ul[@class='dropdown-menu show']")
+	List<WebElement> dropdown_options ;
+	
+	// Action methods
+	
+	
+	public void carloan_click()
+	{
+		
+		CarLoan_main.click();
+		screenShot("CarLoan_main");
+		
+		//use slider now
+		
+	}
+	
+	public List<String> drp_down()
+	{
+		CALCULATORS_link.click();
+		List<String> drp_options = new ArrayList<String>();
+		for(int i=0;i<=dropdown_options.size();i++)
+		{
+			String head=dropdown_options.get(i).getText();
+			
+			drp_options.add(head);
+			System.out.println("Options are : \n"+head);
+			
+			return drp_options;
+		}
+	
+		
+	}
+	
+	
+}

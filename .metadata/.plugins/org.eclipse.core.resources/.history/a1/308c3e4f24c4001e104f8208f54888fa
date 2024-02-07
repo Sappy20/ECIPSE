@@ -1,0 +1,66 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.LOAN_Calculator_LoanEMI;
+
+public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
+	
+	
+	// TEST FOR 2 PAGE
+	
+	@Test(priority=32)
+	public void needTo_setLoan_Amount()
+	{
+		LOAN_Calculator_LoanEMI  ui_EMI = new LOAN_Calculator_LoanEMI(driver);
+		// String LoanAmt=5000000 here
+		ui_EMI.setLoan_Amount("5000000");
+	}
+	
+	
+	@Test(priority=33)
+	public void needTo_setLoan_Interest_Rate()
+	{
+
+		LOAN_Calculator_LoanEMI  ui_EMI = new LOAN_Calculator_LoanEMI(driver);
+		// String Interest_Rates = 10 here
+		ui_EMI.setLoan_Interest_Rate("10");
+		
+	}
+	
+	
+	@Test(priority=34)
+	public void needTo_setLoan_Tennure()
+	{
+
+		LOAN_Calculator_LoanEMI  ui_EMI = new LOAN_Calculator_LoanEMI(driver);
+		//String Years = 2 here
+		ui_EMI.setLoan_Tennure("2");
+		
+	}
+	
+	
+	@Test(priority=35)
+	public void needTo_setLoan_FeesAndCharges()
+	{
+
+		LOAN_Calculator_LoanEMI  ui_EMI = new LOAN_Calculator_LoanEMI(driver);
+		// String FEES =20000 here
+		ui_EMI.setLoan_FeesAndCharges("20000");
+		
+	}
+	
+	@Test(priority=36)
+	public void needTo_NavigateToNxtPage()
+	{
+
+		LOAN_Calculator_LoanEMI  ui_EMI = new LOAN_Calculator_LoanEMI(driver);
+		// String FEES =20000 here
+		ui_EMI.NavigateToNxtPage();
+		
+	}
+	
+}
+
+
+

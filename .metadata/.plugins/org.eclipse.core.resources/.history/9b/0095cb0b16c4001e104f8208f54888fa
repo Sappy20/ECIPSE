@@ -1,0 +1,75 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.LOAN_Calculator_InterestRateCalculator;
+import PageObjects.UI_Check_LOAN_Calculator_LoanTenureCalculator;
+
+public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
+
+	
+	@Test(priority=42)
+	public void do_settingLoan_Amount()
+	{
+
+		LOAN_Calculator_InterestRateCalculator  ui_Interest = new LOAN_Calculator_InterestRateCalculator(driver);
+		//String LoanAmounts = 5000000 
+		ui_Interest.settingLoan_Amount("5000000");
+		ui_Interest.LOAN_amt_Validation();
+		
+	}
+	
+	@Test(priority=43)
+	public void do_settingEMI_Amount()
+	{
+
+		LOAN_Calculator_InterestRateCalculator  ui_Interest = new LOAN_Calculator_InterestRateCalculator(driver);
+		//String EMI_Amount = 10000 
+		ui_Interest.settingEMI_Amount("10000");
+		
+		ui_Interest.EMI_amt_Validation();
+		
+	}
+	
+	@Test(priority=44)
+	public void do_setingLoan_Tennure()
+	{
+
+		LOAN_Calculator_InterestRateCalculator  ui_Interest = new LOAN_Calculator_InterestRateCalculator(driver);
+		//String YEARS = 3 
+		ui_Interest.setingLoan_Tennure("3");
+		
+		ui_Interest.TENURE_Validation();
+		
+	}
+	
+	@Test(priority=45)
+	public void do_setingLoan_FeesAndCharges()
+	{
+
+		LOAN_Calculator_InterestRateCalculator  ui_Interest = new LOAN_Calculator_InterestRateCalculator(driver);
+		//String FeesAndCharges = 20000
+		ui_Interest.setingLoan_FeesAndCharges("20000");
+		
+		ui_Interest.CHARGES_amt_Validation();
+		
+	}
+	
+	@Test(priority=46)
+	public void do_validation_Result()
+	{
+
+		LOAN_Calculator_InterestRateCalculator  ui_Interest = new LOAN_Calculator_InterestRateCalculator(driver);
+		
+		ui_Interest.validation_Result();
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

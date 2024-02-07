@@ -112,6 +112,7 @@ public class EMI_Calculator extends BasePage {
 	// method to validate the car loan page 
 		public boolean carLoanAmountElement() {
 			return carLoanAmountLabelElement.isDisplayed();
+			
 		}
 					
 	public void carloan_click() throws IOException
@@ -208,6 +209,7 @@ public class EMI_Calculator extends BasePage {
 			}
 	 
 			System.out.println();
+			System.out.println("\n");
 	 
 		}
 	 	

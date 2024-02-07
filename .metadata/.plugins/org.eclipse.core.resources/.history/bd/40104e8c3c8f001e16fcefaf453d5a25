@@ -1,0 +1,97 @@
+package mini;
+import java.time.Duration;
+import java.util.*;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+public class project 
+{
+	public static String link_web;
+	public static int links ;
+	public static WebElement element;
+
+	
+	// Validate “Create Rediffmail account” webpage is opened.
+	// Find the total number of links in “Create Rediffmail account” webpage and print the links.
+	// Click on "terms and conditions" link
+	// Validate child window “Terms and Conditions” is opened.
+	// Switch to the child window
+	// Get the title of the child window- DONE
+	// Validate the title of the child window with the expected title.
+	// Close the child window
+	// Switch to the parent window (“Create Rediffmail account” webpage)
+	
+	//initiating parent window handles
+	
+	
+	public static void main(String[] args) throws InterruptedException
+	{
+		
+		System.setProperty("webdriver.chrome.driver","C:\\chromedriver-win64\\chromedriver.exe"); 
+		// Launch the browser
+		WebDriver driver = new ChromeDriver();
+		//WebDriver driver = new FirefoxDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		// Enter the url "https://www.rediff.com"
+		 driver.get("https://www.rediff.com");
+		 driver.manage().window().maximize();
+		 
+		// Click on "Create Account" link
+			 driver.findElement(By.xpath("//a[contains(text(),'Create Account')]")).click();
+			 //using innertext concept here
+			 
+			 
+			// Find the total number of links in “Create Rediffmail account” webpage and print the links.
+			 List<WebElement> links =  driver.findElements(By.tagName("a"));
+			 System.out.println("Total number of links is : "+ links.size());
+			 System.out.println("The Links are: ");
+				for (int i = 0; i < links.size(); i++) {
+					System.out.println(i + 1 + " : " + links.get(i).getAttribute("href"));
+					}
+					
+		for(WebElement e:links) 
+		
+		{
+			System.out.println(e.getText());
+		}
+		
+			 
+			 // Click on "terms and conditions" link
+		 driver.findElement(By.xpath("//a[contains(text(),'terms and conditions')]")).click();
+		//using innertext concept here
+		 
+		//Get the title of the child window
+		//driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]")).getText();
+		 //@SuppressWarnings("unchecked")
+		Set<String> handles = driver.getWindowHandles();
+		 //System.out.println(handles);
+		 List <String> winHandles = new ArrayList<String>(handles);
+		 String parentwin = winHandles.get(0);
+		 String childwin = winHandles.get(1);
+		 driver.switchTo().window(childwin);
+		 
+		 String act_Title = "";
+		 act_Title = driver.getTitle();
+		 String exp_Title = "Rediffmail: Terms and Conditions";
+		 Assert.assertEquals(act_Title, exp_Title,"Validation failed because windows names doesn't match");
+//		 if(act_Title.equals(exp_Title))
+//		 {
+//			 System.out.print("Webpage Validated");
+//		 }
+//		 else {
+//			 System.out.print("Webpage Validation Failed");
+//		 }
+		 Thread.sleep(2000);
+		 driver.close();
+		 Thread.sleep(3000);
+		 
+		 
+		 
+		// Close the browser
+		 driver.quit();
+	}
+
+	}
+

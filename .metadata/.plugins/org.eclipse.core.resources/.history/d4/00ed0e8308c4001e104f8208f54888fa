@@ -1,0 +1,5 @@
+package TestCases;
+
+public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
+
+}

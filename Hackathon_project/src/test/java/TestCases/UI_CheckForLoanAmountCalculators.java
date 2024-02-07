@@ -10,7 +10,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	// TESTS of 1st PAGE
 	
 
-	@Test(priority=24)
+	@Test(priority=24,groups= {"smoke","sanity"})
 	public void validation_Of_EMI_Calculator()
 	{
 		logger.info("***** Working on the 1st TYPE of CALCULATOR  *******");
@@ -25,7 +25,8 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	}
 	
 	
-	@Test(priority=25)
+	
+	@Test(priority=25,groups= {"smoke","sanity"})
 	public void validationOf_Loan_Amount_Calculator()
 	{
 		logger.info("*****  _______________________________ *******");
@@ -37,7 +38,8 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	}
 	
 	
-	@Test(priority=26)
+	
+	@Test(priority=26,groups= {"smoke","sanity"})
 	public void validationOf_Loan_Tenure_Calculator()
 	{
 		logger.info("***** ________________________________  *******");
@@ -49,7 +51,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	}
 	
 	
-	@Test(priority=27)
+	@Test(priority=27,groups= {"smoke","sanity"})
 	public void validationOf_Loan_Interest_Calculator()
 	{
 		logger.info("***** Validation of Loan Interest Calculator link   *******");
@@ -61,28 +63,30 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	
 	
 	
-	@Test(priority=28)
+	@Test(priority=28,groups= {"sanity"})
 	public void does_setingLoan_Amount()
 	{
 		LOAN_Calculator_LoanAmtCalculator  Calc_UI=new LOAN_Calculator_LoanAmtCalculator(driver);
 		logger.info("***** Providing the Loan Amount in the inputbox   *******");
 		
-		//String LoanAmts = 90000
-	Calc_UI.setingLoan_Amount("90000");
+		String EMI__Amts =p.getProperty("EMIAmount");
+	Calc_UI.setingLoan_Amount(EMI__Amts);
 	// checking value 
 	Calc_UI.LoanAmt_Validation();
 	logger.info("***** _________________________ *******");
 	logger.info("***** Validating the final result in the inputbox  *******");
 	}
 	
-	@Test(priority=29)
+	
+	@Test(priority=29,groups= {"sanity"})
 	public void does_setingLoan_Interest_Rate()
 	{
 		
 		LOAN_Calculator_LoanAmtCalculator  Calc_UI=new LOAN_Calculator_LoanAmtCalculator(driver);
 		logger.info("***** Providing the Loan Interest Rate in the inputbox  *******");
-		// String Interest_Ratess = 8
-	Calc_UI.setingLoan_Interest_Rate("8");
+		
+		String Interest_Ratess =p.getProperty("InterestRATE");
+	Calc_UI.setingLoan_Interest_Rate(Interest_Ratess);
 	// returning o/p value
 	Calc_UI.InterestRate_Validation();
 	
@@ -92,20 +96,23 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	
 	}
 	
-	@Test(priority=30)
+	
+	@Test(priority=30,groups= {"sanity"})
 	public void LoanTennure_CalculatorIs_Present_Validation()
 	{
 		logger.info("***** Setting the Loan Tennure by providing the number of years into the checkbox *******");
 		LOAN_Calculator_LoanAmtCalculator  Calc_UI=new LOAN_Calculator_LoanAmtCalculator(driver);
-	// String Year_s = 2
-	Calc_UI.setingLoan_Tennure("2");
+	
+		String Year_s =p.getProperty("LoanTennure");
+	Calc_UI.setingLoan_Tennure(Year_s);
 	
 	logger.info("***** ________________________________ *******");
 	logger.info("***** Validating the Final data in the checkbox  *******");
 	Calc_UI.Tennure_Validation();
 	}
 	
-	@Test(priority=31)
+	
+	@Test(priority=31,groups= {"smoke","sanity"})
 	public void does_setingLoan_FeesAndCharges()
 	{
 		logger.info("*****  *******");
@@ -113,8 +120,9 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 		LOAN_Calculator_LoanAmtCalculator  Calc_UI=new LOAN_Calculator_LoanAmtCalculator(driver);
 
 		logger.info("***** Providing the value for Fees and Charges charged for LOAN initiation *******");
-	//String Fees = 4000
-	Calc_UI.setingLoan_FeesAndCharges("4000");
+	
+		String Fees =p.getProperty("FEESandCharges");
+	Calc_UI.setingLoan_FeesAndCharges(Fees);
 	Calc_UI.FeesANDCharges_Validation();
 	logger.info("***** _________________________________________________ *******");
 	logger.info("***** Validating the DATA stored in the inputbox *******");

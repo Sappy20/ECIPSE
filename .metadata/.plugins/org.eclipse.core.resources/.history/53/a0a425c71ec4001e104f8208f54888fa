@@ -1,0 +1,61 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.LOAN_Calculator_LoanAmtCalculator;
+import PageObjects.LOAN_Calculator_LoanEMI;
+
+
+public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test{
+	
+	// Validations
+	
+	@Test(priority=24)
+	public void does_setingLoan_Amount()
+	{
+		LOAN_Calculator_LoanAmtCalculator  Calc_UI=new LOAN_Calculator_LoanAmtCalculator(driver);
+
+		//String LoanAmts = 90000
+	Calc_UI.setingLoan_Amount("90000");
+	// checking value 
+	Calc_UI.LoanAmt_Validation();
+	}
+	
+	@Test(priority=25)
+	public void does_setingLoan_Interest_Rate()
+	{
+		LOAN_Calculator_LoanAmtCalculator  Calc_UI=new LOAN_Calculator_LoanAmtCalculator(driver);
+	
+		// String Interest_Ratess = 8
+	Calc_UI.setingLoan_Interest_Rate("8");
+	// returning o/p value
+	Calc_UI.InterestRate_Validation();
+	}
+	
+	@Test(priority=26)
+	public void LoanTennure_CalculatorIs_Present_Validation()
+	{
+		LOAN_Calculator_LoanAmtCalculator  Calc_UI=new LOAN_Calculator_LoanAmtCalculator(driver);
+	// String Year_s = 2
+	Calc_UI.setingLoan_Tennure("2");
+	
+	Calc_UI.Tennure_Validation();
+	}
+	
+	@Test(priority=27)
+	public void does_setingLoan_FeesAndCharges()
+	{
+		LOAN_Calculator_LoanAmtCalculator  Calc_UI=new LOAN_Calculator_LoanAmtCalculator(driver);
+
+	//String Fees = 4000
+	Calc_UI.setingLoan_FeesAndCharges("4000");
+	Calc_UI.FeesANDCharges_Validation();
+	Calc_UI.navigateToNextPage();
+	}
+	
+	
+	
+	
+	
+	
+}

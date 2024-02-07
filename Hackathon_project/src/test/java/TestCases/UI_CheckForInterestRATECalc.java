@@ -8,7 +8,7 @@ public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
 
 	// Tests For 4TH PAGE
 	
-	@Test(priority=42)
+	@Test(priority=42,groups= {"sanity"})
 	public void do_settingLoan_Amount()
 	{
 
@@ -20,23 +20,24 @@ public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
 		
 		logger.info("***** Providing the LOAN amount in the inputbox   *******");
 		
-		//String LoanAmounts = 5000000 
-		ui_Interest.settingLoan_Amount("5000000");
+		String LoanAmounts =p.getProperty("LOAN_AMOUNT");
+		ui_Interest.settingLoan_Amount(LoanAmounts);
 		logger.info("***** Validating the value stored in the inputbox  *******");
 		ui_Interest.LOAN_amt_Validation();
 		logger.info("***** _____________________________________ *******");
 		
 	}
 	
-	@Test(priority=43)
+	@Test(priority=43,groups= {"sanity"})
 	public void do_settingEMI_Amount()
 	{
 
 		LOAN_Calculator_InterestRateCalculator  ui_Interest = new LOAN_Calculator_InterestRateCalculator(driver);
 		
 		logger.info("***** Providing the EMI Amount in the inputbox  *******");
-		//String EMI_Amount = 10000 
-		ui_Interest.settingEMI_Amount("10000");
+		
+		String EMI_Amount =p.getProperty("EMI_interestCalculator");
+		ui_Interest.settingEMI_Amount(EMI_Amount);
 		
 		logger.info("***** Validating the value stored in the inputbox  *******");
 		ui_Interest.EMI_amt_Validation();
@@ -44,36 +45,38 @@ public class UI_CheckForInterestRATECalc extends UI_CheckForLoanTennureCalc {
 		
 	}
 	
-	@Test(priority=44)
+	@Test(priority=44,groups= {"sanity"})
 	public void do_setingLoan_Tennure()
 	{
 
 		LOAN_Calculator_InterestRateCalculator  ui_Interest = new LOAN_Calculator_InterestRateCalculator(driver);
 		
 		logger.info("***** Providing the years for which the LOAN is applied for  *******");
-		//String YEARS = 3 
-		ui_Interest.setingLoan_Tennure("3");
+		
+		String YEARS =p.getProperty("Loan_TENNURE");
+		ui_Interest.setingLoan_Tennure(YEARS);
 		
 		logger.info("***** Validation of value inside the inputbox  *******");
 		ui_Interest.TENURE_Validation();
 		logger.info("***** __________________________________________ *******");
 	}
 	
-	@Test(priority=45)
+	@Test(priority=45,groups= {"sanity"})
 	public void do_setingLoan_FeesAndCharges()
 	{
 		logger.info("*****  *******");
 		LOAN_Calculator_InterestRateCalculator  ui_Interest = new LOAN_Calculator_InterestRateCalculator(driver);
 		
 		logger.info("***** Providing the amount for FEES and CHARGES inside the inputbox  *******");
-		//String FeesAndCharges = 20000
-		ui_Interest.setingLoan_FeesAndCharges("20000");
+		
+		String FeesAndCharges =p.getProperty("FEES_Charges");
+		ui_Interest.setingLoan_FeesAndCharges(FeesAndCharges);
 		logger.info("***** Validating the  value inside the unputbox  *******");
 		ui_Interest.CHARGES_amt_Validation();
 		logger.info("***** _____________________________________ *******");
 	}
 	
-	@Test(priority=46)
+	@Test(priority=46,groups= {"smoke","sanity"})
 	public void do_validation_Result()
 	{
 

@@ -9,7 +9,7 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 	
 	// TEST FOR 2 PAGE
 	
-	@Test(priority=32)
+	@Test(priority=32,groups= {"sanity"})
 	public void needTo_setLoan_Amount()
 	{
 		logger.info("***** Working on the Second type of Calculator page  *******");
@@ -19,8 +19,11 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 		
 		logger.info("***** _________________________________________ *******");
 		logger.info("***** Providing the Loan Amount in the inputbox *******");
-		// String LoanAmt=5000000 here
-		ui_EMI.setLoan_Amount("5000000");
+		
+		// using property file here
+		String LoanAmt=p.getProperty("loanAmount");
+		
+		ui_EMI.setLoan_Amount(LoanAmt);
 		// returning value set
 		ui_EMI.LoanAmt_Validate();
 		logger.info("***** Validating the data shown finally in the inputbox *******");
@@ -28,7 +31,7 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 	}
 	
 	
-	@Test(priority=33)
+	@Test(priority=33,groups= {"sanity"})
 	public void needTo_setLoan_Interest_Rate()
 	{
 
@@ -36,8 +39,9 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 		LOAN_Calculator_LoanEMI  ui_EMI = new LOAN_Calculator_LoanEMI(driver);
 		
 		logger.info("***** _______________________ *******");
-		// String Interest_Rates = 10 here
-		ui_EMI.setLoan_Interest_Rate("10");
+		
+		String Interest_Rates =p.getProperty("interestRateEMICalculator");
+		ui_EMI.setLoan_Interest_Rate(Interest_Rates);
 		
 		logger.info("***** Validating the results shown in the Interest Rate inputbox *******");
 		// returning value set
@@ -47,13 +51,14 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 	}
 	
 	
-	@Test(priority=34)
+	@Test(priority=34,groups= {"sanity"})
 	public void needTo_setLoan_Tennure()
 	{
 		logger.info("***** Providing the number of YEARS for which the LOAN is being applied for  *******");
 		LOAN_Calculator_LoanEMI  ui_EMI = new LOAN_Calculator_LoanEMI(driver);
-		//String Years = 2 here
-		ui_EMI.setLoan_Tennure("2");
+		
+		String Years =p.getProperty("loanTenureEMICalculator");
+		ui_EMI.setLoan_Tennure(Years);
 		logger.info("***** _________________________ *******");
 		// returning value set
 		ui_EMI.LOAN_Tenure_Validate();
@@ -62,14 +67,15 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 	}
 	
 	
-	@Test(priority=35)
+	@Test(priority=35,groups= {"sanity"})
 	public void needTo_setLoan_FeesAndCharges()
 	{
 
 		logger.info("***** ______________________________ *******");
 		LOAN_Calculator_LoanEMI  ui_EMI = new LOAN_Calculator_LoanEMI(driver);
-		// String FEES =20000 here
-		ui_EMI.setLoan_FeesAndCharges("20000");
+		
+		String FEES =p.getProperty("loanChargesLoanCalculator");
+		ui_EMI.setLoan_FeesAndCharges(FEES);
 		
 		logger.info("***** Providing the FEES and CHARGES for applying for the LOAN  *******");
 		logger.info("*****  *******");
@@ -80,7 +86,7 @@ public class UI_CheckForLoanEMICalc extends UI_CheckForLoanAmountCalculators{
 		
 	}
 	
-	@Test(priority=36)
+	@Test(priority=36,groups= {"smoke","sanity"})
 	public void needTo_NavigateToNxtPage()
 	{
 

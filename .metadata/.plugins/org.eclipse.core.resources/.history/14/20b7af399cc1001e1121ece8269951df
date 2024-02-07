@@ -1,0 +1,41 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.LOAN_Calculator_UI;
+
+public class UI_CheckForCalculators extends HomeLoanEMICalculator_Test{
+	
+	
+	@Test(priority=24)
+	public void emiCalculator_Is_Present_Validation()
+	{
+	LOAN_Calculator_UI  Calc_UI=new LOAN_Calculator_UI(driver);
+	// checking if 1st calculator type is displayed or not 
+	Calc_UI.Validation_Of_EMICalculator();
+	}
+	
+	@Test(priority=24)
+	public void LoanAmountCalculator_Is_Present_Validation()
+	{
+	LOAN_Calculator_UI  Calc_UI=new LOAN_Calculator_UI(driver);
+	Calc_UI.Validation_Of_LoanAmountCalculator();
+	}
+	
+	@Test(priority=24)
+	public void emiCalculatorIs_Present_Validation()
+	{
+	LOAN_Calculator_UI  Calc_UI=new LOAN_Calculator_UI(driver);
+	Calc_UI.Validation_Of_EMICalculator();
+	}
+	
+	@Test(priority=24)
+	public void emiCalculatorIs_Present_Validation()
+	{
+	LOAN_Calculator_UI  Calc_UI=new LOAN_Calculator_UI(driver);
+	Calc_UI.Validation_Of_EMICalculator();
+	}
+	
+	
+	
+}

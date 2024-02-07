@@ -1,0 +1,83 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.UI_Check_LOAN_Calculator_LoanEMI;
+
+public class UI_CheckForLoanEMICalc extends UI_CheckForCalculators{
+	
+	
+	@Test(priority=28)
+	public void validation_Of_EMI_Calculator()
+	{
+		UI_Check_LOAN_Calculator_LoanEMI  ui_EMI = new UI_Check_LOAN_Calculator_LoanEMI(driver);
+		ui_EMI.Validation_Of_EMICalculator();
+	}
+	
+	
+	@Test(priority=29)
+	public void validationOf_Loan_Amount_Calculator()
+	{
+		UI_Check_LOAN_Calculator_LoanEMI  ui_EMI = new UI_Check_LOAN_Calculator_LoanEMI(driver);
+		ui_EMI.Validation_Of_LoanAmountCalculator();
+	}
+	
+	
+	@Test(priority=30)
+	public void validationOf_Loan_Tenure_Calculator()
+	{
+		UI_Check_LOAN_Calculator_LoanEMI  ui_EMI = new UI_Check_LOAN_Calculator_LoanEMI(driver);
+		ui_EMI.Validation_Of_LoanTennureCalculator();
+	}
+	
+	
+	@Test(priority=31)
+	public void validationOf_Loan_Interest_Calculator()
+	{
+		UI_Check_LOAN_Calculator_LoanEMI  ui_EMI = new UI_Check_LOAN_Calculator_LoanEMI(driver);
+		ui_EMI.Validation_Of_Loan_InterestCalculator();
+	}
+	// uptil now the 4 test methods were for validation
+	
+	@Test(priority=32)
+	public void needTo_setLoan_Amount()
+	{
+		UI_Check_LOAN_Calculator_LoanEMI  ui_EMI = new UI_Check_LOAN_Calculator_LoanEMI(driver);
+		// String LoanAmt=5000000 here
+		ui_EMI.setLoan_Amount("5000000");
+	}
+	
+	
+	@Test(priority=33)
+	public void needTo_setLoan_Interest_Rate()
+	{
+
+		UI_Check_LOAN_Calculator_LoanEMI  ui_EMI = new UI_Check_LOAN_Calculator_LoanEMI(driver);
+		// String Interest_Rates = 10 here
+		ui_EMI.setLoan_Interest_Rate("10");
+		
+	}
+	
+	
+	@Test(priority=34)
+	public void needTo_setLoan_Tennure()
+	{
+
+		UI_Check_LOAN_Calculator_LoanEMI  ui_EMI = new UI_Check_LOAN_Calculator_LoanEMI(driver);
+		//String Years = 2 here
+		ui_EMI.setLoan_Tennure("2");
+		
+	}
+	
+	
+	@Test(priority=35)
+	public void needTo_()
+	{
+
+		UI_Check_LOAN_Calculator_LoanEMI  ui_EMI = new UI_Check_LOAN_Calculator_LoanEMI(driver);
+		ui_EMI.
+		
+	}
+	
+
+}

@@ -1,0 +1,44 @@
+package PageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class UI_Check_LOAN_Calculator_LoanAmtCalculator extends BasePage{
+
+	public UI_Check_LOAN_Calculator_LoanAmtCalculator(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+	
+	// PAGE HEADING
+		@FindBy(xpath="//div[@class='page-header']/h1")
+		WebElement PageHeading  ;
+
+		// DASHBOARD HEADINGS FOR DIFFERENT CALCULATORS 
+		@FindBy(xpath="//div[@id='loancalculatordashboard']/ul/li")
+		WebElement EMICalculator_LOGO  ;
+
+		
+		@FindBy(xpath="//li[@id='loan-amount-calc']")
+		WebElement  LoanAmount_CALCULATOR_LOGO ;
+
+		
+		@FindBy(xpath="//li[@id='loan-tenure-calc']")
+		WebElement  Loan_Tennure_CALCULATOR_LOGO ;
+
+		
+		@FindBy(xpath="//li[@id='interest-rate-calc']")
+		WebElement InterestCalculator_LOGO  ;
+		
+		
+		
+		
+		
+		
+		
+		//Action Methods
+		
+	
+
+}

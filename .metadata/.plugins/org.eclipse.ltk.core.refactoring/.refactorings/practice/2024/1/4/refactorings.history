@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;mini.trivago.java&apos; to &apos;trivago_availability.java&apos;&#x0D;&#x0A;- Original project: &apos;practice&apos;&#x0D;&#x0A;- Original element: &apos;mini.trivago.java&apos;&#x0D;&#x0A;- Renamed element: &apos;mini.trivago_availability.java&apos;" description="Rename compilation unit &apos;trivago.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;mini{trivago.java" name="trivago_availability.java" references="false" stamp="1705989472234" version="1.0"/>
+</session>

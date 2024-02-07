@@ -1,0 +1,49 @@
+package PageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import java.util.List;
+
+import org.openqa.selenium.*;
+
+public class HomeLoanEMICalculator extends BasePage{
+
+	public HomeLoanEMICalculator(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	// Object Repository containing WebElements
+	@FindBy(xpath="//input[@id='homeprice']")
+	WebElement   HomeValue_HV ;
+	
+	@FindBy(xpath="//input[@id='downpayment']")
+	WebElement   Margin_OR_DownPayment ;
+	
+	
+	@FindBy(xpath="//input[@id='homeloaninsuranceamount']")
+	WebElement   LoanInsurence_LI ;
+	
+	@FindBy(xpath="//input[@id='homeloaninterest']")
+	WebElement   Interest_Rate ;
+	
+	@FindBy(xpath="//input[@id='homeloanterm']")
+	WebElement  Loan_Tennure ;
+	
+	
+	@FindBy(xpath="//input[@id='loanfees']")
+	WebElement   LoanFeesAndCharge ;
+	
+	@FindBy(xpath="//input[@id='startmonthyear']")
+	WebElement   date_calender;
+	
+	@FindBy(xpath="//span[@class='month']")
+	List<WebElement>   Months ;
+	
+	
+	
+
+}

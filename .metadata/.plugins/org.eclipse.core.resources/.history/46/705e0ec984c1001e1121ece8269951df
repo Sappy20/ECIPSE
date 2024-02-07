@@ -1,0 +1,193 @@
+package TestCases;
+
+import org.testng.annotations.Test;
+
+import PageObjects.HomeLoanEMICalculator;
+
+
+public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
+	
+	  
+	@Test(priority=7)
+	public void HomeLoan_Validation()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI.validateHomeLoanEmiCalculator();
+	}
+	
+	@Test(priority=8)
+	public void advertisement_handling()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI.handleAdvertisement();
+	}
+	
+	@Test(priority=9)
+	public void setHomeValue_InCalculator()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		// will have to take the string value for home value from config properties file
+		// temporarily hardcoding
+		// String homeValueAmount = 5000000 here 
+		HomeEMI.setHomeValue_InputBox("5000000");
+	}
+	
+	@Test(priority=10)
+	public void setDownPayment_InCalculator()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		// hardcode data as String downpayment temporarily  in PERCENTAGE
+		
+		//String downPayment = 20 here
+		HomeEMI.setdownPayment("20");
+	}
+	
+	@Test(priority=11)
+	public void clickOn_DownPayment_Button_Select_Rupees()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI.clickOnDownPaymentRupeesButton();
+	}
+	
+
+	@Test(priority=12)
+	public void Down_Payment_Amount()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI.getDownPaymentAmount();
+	}
+	
+	@Test(priority=13)
+	public void setting_LoanInsurance_Amount()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		//temporary testing data
+		// String loanInsuranceAmount  = 10000 here
+		HomeEMI.setLoanInsurance("10000");
+	}
+	
+	@Test(priority=14)
+	public void Loan_Amt_Validation()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI.getLoanAmount();
+	}
+	
+	@Test(priority=15)
+	public void set_Interest_Rate()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		//String interestRate=  9.5
+		HomeEMI.setInteresrRate("9.5");
+	}
+	
+	@Test(priority=16)
+	public void Setting_Loan_Duration()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		//String loanTenure =  1year  here
+		HomeEMI.setLoanTenure("1");
+	}
+	
+	
+	@Test(priority=16)
+	public void convert_Year_ToMonths()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI.clickOnLoanTenureMonthsButton();
+		HomeEMI.getLoanTenureInMonths();    // returns value in months
+	}
+	
+	
+	@Test(priority=16)
+	public void Loan_charges_set()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		//Setting Loan give out charges as a percentage of the Loan Amount
+		//String loanCharges = 0.25 percent here
+		HomeEMI.setLoanCharges("0.25");
+	}
+	
+	
+	@Test(priority=17)
+	public void Loan_StartMonthAndYear_calenderOperations()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI.clickOnLoanStartMonthAndYear();
+		
+		// validating if date picker is visible
+		
+		HomeEMI.validateDatePicker();
+	}
+	
+	@Test(priority=18)
+	public void LoanStartMonthAndYear_setting()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		//String year,String month = 2024 , march    here
+		HomeEMI.setLoanStartMonthAndYear("2024","march");
+	}
+
+	
+	@Test(priority=19)
+	public void setting_OneTimeExpenses()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		// String oneTimeExpenses =  10  here   
+		HomeEMI.setOneTimeExpenses("10");
+		//
+		HomeEMI.clickOnOneTimeExpensesRupeesButton();
+		// returns value calculated in rupees 
+		HomeEMI.getOneTimeExpensesInRupees();
+	}
+
+	
+	@Test(priority=20)
+	public void  propertyTaxesperyear()
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		//  String taxesPerYear =  0.25 in percent  here
+		HomeEMI.setPropertyTaxesPeryear("0.25");
+	}
+
+	
+	@Test(priority=21)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI
+	}
+
+	
+	@Test(priority=22)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI
+	}
+
+	
+	@Test(priority=23)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI
+	}
+
+	
+	@Test(priority=24)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI
+	}
+
+	
+	@Test(priority=25)
+	public void
+	{
+		HomeLoanEMICalculator HomeEMI= new HomeLoanEMICalculator(driver);
+		HomeEMI
+	}
+
+}

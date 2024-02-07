@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import utilities.ExcelUtility;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -187,7 +189,8 @@ public class HomeLoanEMICalculator extends BasePage{
 			}
 			catch(Exception e)
 			{
-				System.out.println("Exceptions caught"+e.getMessage());
+				System.out.println("Exceptions caught: "+e.getMessage());
+				System.out.println("\n");
 			}
 		}
 		
@@ -216,6 +219,7 @@ public class HomeLoanEMICalculator extends BasePage{
 		public void clickOnDownPaymentRupeesButton() {
 			fluentWait(downPaymentRupeesButtonElement);
 			downPaymentRupeesButtonElement.click();
+			System.out.println("\n");
 		}
 		
 		// Method to get DownPayment Amount
@@ -285,7 +289,7 @@ public class HomeLoanEMICalculator extends BasePage{
 			loanChargesInputElement.clear();
 			loanChargesInputElement.sendKeys(loanCharges);
 		
-			Thread.sleep(4000);
+			Thread.sleep(2000);
 		}
 		
 		// Method to validate loan charges rupees button
@@ -433,6 +437,7 @@ public class HomeLoanEMICalculator extends BasePage{
 			
 			// sending paramaterized values to the input boxes
 			maintenanceExpensesPerMonthElement.sendKeys(MaintenanceExpenses);
+			System.out.println("\n");
 			
 		}
 		
@@ -446,12 +451,13 @@ public class HomeLoanEMICalculator extends BasePage{
 				for(int j=0;j<headersElements.size();j++) {
 					
 					// STORING DATA FROM  excel sheet shown in webpage
-					String data = driver.findElement(By.xpath("//tr[@class='row no-margin yearlypaymentdetails']["+i+"]/td["+(j+1)+"]")).getText().replaceAll("[₹,%]+", "");
-//	ExcelUtility.writeData("HomeLoanYearOnYearTable", i, j, Float.parseFloat(data));
+	  				String data = driver.findElement(By.xpath("//tr[@class='row no-margin yearlypaymentdetails']["+i+"]/td["+(j+1)+"]")).getText().replaceAll("[₹,%]+", "");
+	  				ExcelUtility.writeData("HomeLoanYearOnYearTable", i, j, Float.parseFloat(data));
 					System.out.print(data+"\t");
 					
 				}
 				System.out.println();
+				System.out.println("\n");
 			}
 		}
 		

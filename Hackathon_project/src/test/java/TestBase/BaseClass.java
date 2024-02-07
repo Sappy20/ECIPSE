@@ -1,5 +1,9 @@
 package TestBase;
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -9,14 +13,24 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.*;
 public class BaseClass {
 
-	public static WebDriver driver;
+	public Properties p;
 	public Logger logger;
+	public static WebDriver driver;
 	
 	
-	@BeforeClass
+	
+	@BeforeClass(groups={"smoke","sanity"})
 	@Parameters({"os","browser"})
-	public void setup(String os, String br) throws InterruptedException
+	public void setup(String os, String br) throws IOException, InterruptedException
 	{
+		
+		// loading properties file
+		
+		FileReader file = new FileReader(".//src//test//resources//config.properties");
+		p= new Properties();
+		p.load(file);                    // IO Exception
+		
+		
 		// loading log4j2 file 
 		logger=LogManager.getLogger(this.getClass());
 		/*
@@ -26,10 +40,10 @@ public class BaseClass {
         */
 		switch(br.toLowerCase())
 		{
-		case "chrome": driver= new ChromeDriver() ;break;
-		case "edge": driver = new EdgeDriver();  break;
+		case "chrome": driver= new ChromeDriver(); break;
+		case "edge": driver= new EdgeDriver();  break;
 		default : System.out.println(" Wrong input choice !! ");
-		return;
+					return;
 		
 		}
 		driver.manage().deleteAllCookies();
@@ -62,7 +76,7 @@ public class BaseClass {
 	}
 	
 	
-	@AfterClass
+	@AfterClass(groups= {"smoke","sanity"})
 	public void tearDown()
 	{
 		driver.quit();
