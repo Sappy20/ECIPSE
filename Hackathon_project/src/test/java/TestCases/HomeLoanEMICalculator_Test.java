@@ -11,7 +11,7 @@ import PageObjects.HomeLoanEMICalculator;
 public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	
 	  
-	@Test(priority=7,groups= {"sanity"})
+	@Test(priority=7,groups= {"sanity","master"})
 	public void HomeLoan_Validation() throws IOException, InterruptedException
 	{
 		logger.info("***** Validating the Page through Page heading validation *******");
@@ -30,7 +30,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	
 	
 	
-	@Test(priority=9,groups= {"sanity"})
+	@Test(priority=9,groups= {"sanity","master"})
 	public void setHomeValue_InCalculator()
 	{
 		logger.info("***** Input value to HOME VALUE(HV) Input box in page *******");
@@ -44,10 +44,11 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 		String homeValueAmount = p.getProperty("homeValue");
 		
 		HomeEMI.setHomeValue_InputBox(homeValueAmount);
+		
 		logger.info("*****  *******");
 	}
 	
-	@Test(priority=10,groups= {"sanity"})
+	@Test(priority=10,groups= {"sanity","master"})
 	public void setDownPayment_InCalculator() throws IOException
 	{
 		logger.info("***** ___Input value to Margin OR Down Payment(DP) Inputbox present in webpage ____ *******");
@@ -58,6 +59,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 		String downPayment =p.getProperty("downPaymentPercentage");
 		logger.info("***** ______________________________ *******");
 		HomeEMI.setdownPayment(downPayment);
+		
 		
 		// converting the above data into rupees
 		logger.info("***** Converting  The downpayment from PERCENTAGE to RUPEES  *******");
@@ -70,7 +72,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	}
 	
 	
-	@Test(priority=11,groups= {"sanity"})
+	@Test(priority=11,groups= {"sanity","master"})
 	public void setting_LoanInsurance_Amount() throws IOException
 	{
 		logger.info("***** _________________________ *******");
@@ -83,7 +85,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 		logger.info("***** Input data to LOAN INSURANCE (LI) inputbox *******");
 	}
 	
-	@Test(priority=12,groups= {"sanity"})
+	@Test(priority=12,groups= {"sanity","master"})
 	public void Loan_Amt_Validation()
 	{
 		logger.info("***** ____________________________ *******");
@@ -92,7 +94,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 		logger.info("***** Returning the values from the inputbox that is stored in a String *******");
 	}
 	
-	@Test(priority=13,groups= {"sanity"})
+	@Test(priority=13,groups= {"sanity","master"})
 	public void set_Interest_Rate() throws InterruptedException, IOException
 	{
 		logger.info("***** ________________________________ *******");
@@ -103,7 +105,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 		logger.info("***** Providing the Interest Rate in percentage in the inputbox *******");
 	}
 	
-	@Test(priority=14,groups= {"sanity"})
+	@Test(priority=14,groups= {"sanity","master"})
 	public void Setting_Loan_Duration() throws IOException, InterruptedException
 	{
 		logger.info("***** ______________________  *******");
@@ -122,7 +124,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 		
 	}
 	
-	@Test(priority=15,groups= {"sanity"})
+	@Test(priority=15,groups= {"sanity","master"})
 	public void Loan_charges_set() throws InterruptedException, IOException
 	{
 		
@@ -140,7 +142,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	}
 	
 	
-	@Test(priority=16,groups= {"sanity"})
+	@Test(priority=16,groups= {"sanity","master"})
 	public void Loan_StartMonthAndYear_calenderOperations()
 	{
 		logger.info("***** ___________________________  *******");
@@ -156,7 +158,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	
 	}
 	
-	@Test(priority=17,groups= {"sanity"})
+	@Test(priority=17,groups= {"sanity","master"})
 	public void LoanStartMonthAndYear_setting()
 	{
 		logger.info("***** __________________________________ *******");
@@ -170,7 +172,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	}
 
 	
-	@Test(priority=18,groups= {"sanity"})
+	@Test(priority=18,groups= {"sanity","master"})
 	public void setting_OneTimeExpenses() throws InterruptedException, IOException
 	{
 		logger.info("***** Providing the One Time Expenses in percentage format *******");
@@ -189,7 +191,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	}
 
 	
-	@Test(priority=19,groups= {"sanity"})
+	@Test(priority=19,groups= {"sanity","master"})
 	public void  propertyTaxesperyear() throws InterruptedException, IOException
 	{
 		logger.info("***** _________________________________________ *******");
@@ -214,7 +216,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	}
 
 	
-	@Test(priority=20,groups= {"sanity"})
+	@Test(priority=20,groups= {"sanity","master"})
 	public void HomeInsurancePerYear_setting() throws InterruptedException, IOException 
 	{
 		logger.info("***** Setting the values for Home Insurance Per Year inside the corresponding inputbox *******");
@@ -238,7 +240,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	}
 
 	
-	@Test(priority=21,groups= {"sanity"})
+	@Test(priority=21,groups= {"sanity","master"})
 	public void SettingMaintenanceExpenses() throws IOException
 	{
 		
@@ -252,7 +254,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 	}
 
 	
-	@Test(priority=22,groups= {"sanity"})
+	@Test(priority=22,groups= {"sanity","master"})
 	public void implementing_ExcelMethods_toStoreData() throws InterruptedException, IOException
 	{
 		
@@ -262,7 +264,7 @@ public class HomeLoanEMICalculator_Test extends EMI_CalculatorHomePage_TEST {
 		logger.info("***** _______________________________  *******");
 	}
 
-	@Test(priority=23,groups= {"smoke","sanity"})
+	@Test(priority=23,groups= {"smoke","sanity","master"})
 	public void Navigation_toNextPage() throws InterruptedException
 	{
 		logger.info("***** Go to the next Page by clicking on the Calculators Dropdown *******");

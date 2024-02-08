@@ -10,7 +10,7 @@ public class GoogleHome_Test extends BaseClass{
 	Google_Home gh;
 	//SoftAssert so= new SoftAssert();
 	
-	@Test(priority=1,groups={"smoke","sanity"})
+	@Test(priority=1,groups={"smoke","sanity","regression","master"})
 	public void search_action() throws InterruptedException, IOException
 	{
 		logger.info("***** Initiating a serach input to the Google searchbox *******");
@@ -19,7 +19,7 @@ public class GoogleHome_Test extends BaseClass{
 		//    so.assertTrue(false);
 		
 	}
-	@Test(priority=2,groups={"smoke","sanity"})
+	@Test(priority=2,groups={"smoke","sanity","regression","master"})
 	public void search()
 	{
 		logger.info("***** _________________________________ *******");
@@ -28,7 +28,7 @@ public class GoogleHome_Test extends BaseClass{
 		gh.initiate_search();
 		
 	}
-	@Test(priority=3,groups={"smoke","sanity"})
+	@Test(priority=3,groups={"smoke","sanity","regression","master"})
 	public void open_webpage() throws InterruptedException, IOException
 	{
 		logger.info("***** ____________________________________ *******");

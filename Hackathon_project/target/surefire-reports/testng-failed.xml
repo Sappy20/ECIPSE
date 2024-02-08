@@ -10,53 +10,9 @@
     <classes>
       <class name="TestCases.UI_CheckForInterestRATECalc">
         <methods>
-          <include name="propertyTaxesperyear"/>
-          <include name="needTo_setLoan_Tennure"/>
-          <include name="do_settingLoan_Amount"/>
-          <include name="validation_Of_EMI_Calculator"/>
-          <include name="do_setingLoan_FeesAndCharges"/>
-          <include name="do_setingLoan_Tennure"/>
-          <include name="setDownPayment_InCalculator"/>
-          <include name="do_NavigateToNextPAGE"/>
-          <include name="validationOf_Loan_Tenure_Calculator"/>
-          <include name="Loan_charges_set"/>
-          <include name="Loan_StartMonthAndYear_calenderOperations"/>
-          <include name="HomeInsurancePerYear_setting"/>
-          <include name="do_setsLoan_AmountInterest_RATE"/>
-          <include name="do_settingEMI_Amount"/>
-          <include name="search_action"/>
-          <include name="do_setsLoan_Amount"/>
-          <include name="SettingMaintenanceExpenses"/>
-          <include name="implementing_ExcelMethods_toStoreData"/>
-          <include name="LoanTennure_CalculatorIs_Present_Validation"/>
-          <include name="set_Interest_Rate"/>
-          <include name="setting_OneTimeExpenses"/>
-          <include name="needTo_NavigateToNxtPage"/>
           <include name="setup"/>
-          <include name="do_setsEMI_Amount"/>
-          <include name="does_setingLoan_Interest_Rate"/>
-          <include name="load_EMICalculator_LINK"/>
-          <include name="setting_LoanInsurance_Amount"/>
-          <include name="setHomeValue_InCalculator"/>
-          <include name="clickONCarloan"/>
-          <include name="does_setingLoan_Amount"/>
-          <include name="do_setsFees_AND_Charges_Amount"/>
-          <include name="do_validation_Result"/>
-          <include name="needTo_setLoan_FeesAndCharges"/>
-          <include name="needTo_setLoan_Amount"/>
-          <include name="HomeLoan_Validation"/>
-          <include name="validationOf_Loan_Interest_Calculator"/>
-          <include name="Loan_Amt_Validation"/>
-          <include name="Setting_Loan_Duration"/>
-          <include name="refreshPage"/>
-          <include name="open_webpage"/>
-          <include name="does_setingLoan_FeesAndCharges"/>
-          <include name="LoanStartMonthAndYear_setting"/>
-          <include name="validationOf_Loan_Amount_Calculator"/>
-          <include name="needTo_setLoan_Interest_Rate"/>
-          <include name="Navigation_toNextPage"/>
+          <include name="implementing_ExcelMethods_toStoreData"/>
           <include name="tearDown"/>
-          <include name="search"/>
         </methods>
       </class> <!-- TestCases.UI_CheckForInterestRATECalc -->
     </classes>

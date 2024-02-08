@@ -130,6 +130,7 @@ public class UI_CheckForLoanAmountCalculators extends HomeLoanEMICalculator_Test
 	
 	logger.info("***** Moving on to the next calculator page  *******");
 	logger.info("*****  *******");
+	
 	// Navigating to EMI Calculator page 
 	
 	Calc_UI.navigateToNextPage();

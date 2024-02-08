@@ -201,6 +201,7 @@ public class HomeLoanEMICalculator extends BasePage{
 			homeValueInputElement.clear();
 			
 			homeValueInputElement.sendKeys(homeValueAmount);
+			
 		}
 		
 		// Method to set down payment
@@ -212,6 +213,7 @@ public class HomeLoanEMICalculator extends BasePage{
 			
 			// Using String parameters to send data TO INPUT BOX
 			downPaymentElement.sendKeys(downPayment);
+			
 		}
 		
 		// Method to click on DownPayment rupees button

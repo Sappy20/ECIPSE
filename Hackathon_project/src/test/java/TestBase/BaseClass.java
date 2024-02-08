@@ -19,7 +19,7 @@ public class BaseClass {
 	
 	
 	
-	@BeforeClass(groups={"smoke","sanity"})
+	@BeforeClass(groups={"smoke","sanity","regression","master"})
 	@Parameters({"os","browser"})
 	public void setup(String os, String br) throws IOException, InterruptedException
 	{
@@ -39,7 +39,7 @@ public class BaseClass {
         // for headless testing just uncomment this part and typecast options to driver
         */
 		
-		if(p.getProperty("execution_env").equals("local")) {
+		
 			// Launching browser based on choice
 		switch(br.toLowerCase())
 		{
@@ -49,7 +49,7 @@ public class BaseClass {
 					return;
 		
 		}
-		}
+		
 		
 		
 		driver.manage().deleteAllCookies();
@@ -82,7 +82,7 @@ public class BaseClass {
 	}
 	
 	
-	@AfterClass(groups= {"smoke","sanity"})
+	@AfterClass(groups= {"smoke","sanity","regression","master"})
 	public void tearDown()
 	{
 		driver.quit();

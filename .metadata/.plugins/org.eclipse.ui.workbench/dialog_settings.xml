@@ -21,6 +21,8 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\HACKATHON.zip"/>
+			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\Hack_Sample.zip"/>
 			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\SampleProject.zip"/>
 			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\abc.zip"/>
 		</list>
