@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testCases.OutreachTest">
+        <methods>
+          <include name="donateHeaderTest"/>
+          <include name="exploreHeaderTest"/>
+          <include name="eventsTest"/>
+          <include name="myGoalDataTest"/>
+          <include name="clickon1CTest"/>
+          <include name="getUserNameTest"/>
+          <include name="clickOnVolunteersAroundMeTest"/>
+          <include name="readMoreHeaderTest"/>
+          <include name="pastGoalsDataTest"/>
+          <include name="defaultLocEventTest"/>
+          <include name="selectDateTest"/>
+          <include name="ClickOnGoalsTest"/>
+          <include name="clickOnSearchTest"/>
+          <include name="outreachVisibilityTest"/>
+          <include name="disabledDateVerifyTest"/>
+          <include name="tearDown"/>
+          <include name="visibilityOf1CTest"/>
+          <include name="eventsHeaderTest"/>
+          <include name="swithTo1CTest"/>
+          <include name="clickOnWeekdayTest"/>
+          <include name="userEleClickTest"/>
+          <include name="appsNameTest"/>
+          <include name="randomLocEventTest"/>
+          <include name="getUserEmailTest"/>
+          <include name="searchOutreachTest"/>
+          <include name="setup"/>
+          <include name="myVolunteerDataTest"/>
+          <include name="eventTypeTest"/>
+        </methods>
+      </class> <!-- testCases.OutreachTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

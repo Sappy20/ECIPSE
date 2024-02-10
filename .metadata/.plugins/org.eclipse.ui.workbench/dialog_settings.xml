@@ -21,6 +21,7 @@
 		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
 		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
 		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\ALL.zip"/>
 			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\HACKATHON.zip"/>
 			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\Hack_Sample.zip"/>
 			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\SampleProject.zip"/>
@@ -31,6 +32,28 @@
 		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
 			<item value="C:\Users\2303447\Downloads\eclips.zip"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="750"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="844"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<list key="orderedElements">
+			<item value="org.eclipse.egit.ui.internal.preferences.CommittingPreferencePage"/>
+			<item value="org.eclipse.egit.ui.RepositoriesView"/>
+		</list>
+		<list key="orderedProviders">
+			<item value="org.eclipse.ui.preferences"/>
+			<item value="org.eclipse.e4.ui.parts"/>
+		</list>
+		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+		</list>
+		<list key="textArray">
+			<item value="stag"/>
+			<item value="git"/>
 		</list>
 	</section>
 </section>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-22T16:09:18 IST" name="Suite" finished-at="2024-01-22T16:10:18 IST" duration-ms="60130">
+    <groups>
+    </groups>
+    <test started-at="2024-01-22T16:09:18 IST" name="Main" finished-at="2024-01-22T16:10:18 IST" duration-ms="60130">
+      <class name="testCases.OutreachTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:18 IST" name="setup" finished-at="2024-01-22T16:09:39 IST" duration-ms="20536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userEleClickTest()[pri:1, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:39 IST" name="userEleClickTest" finished-at="2024-01-22T16:09:40 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userEleClickTest -->
+        <test-method signature="getUserNameTest()[pri:2, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:40 IST" name="getUserNameTest" finished-at="2024-01-22T16:09:50 IST" duration-ms="10051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserNameTest -->
+        <test-method signature="getUserEmailTest()[pri:3, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:50 IST" name="getUserEmailTest" finished-at="2024-01-22T16:09:50 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserEmailTest -->
+        <test-method signature="visibilityOf1CTest()[pri:4, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:50 IST" name="visibilityOf1CTest" finished-at="2024-01-22T16:09:50 IST" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibilityOf1CTest -->
+        <test-method signature="clickon1CTest()[pri:5, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:50 IST" name="clickon1CTest" finished-at="2024-01-22T16:09:50 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickon1CTest -->
+        <test-method signature="swithTo1CTest()[pri:6, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:50 IST" name="swithTo1CTest" finished-at="2024-01-22T16:09:58 IST" duration-ms="7449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swithTo1CTest -->
+        <test-method signature="searchOutreachTest()[pri:7, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:58 IST" name="searchOutreachTest" finished-at="2024-01-22T16:09:58 IST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchOutreachTest -->
+        <test-method signature="outreachVisibilityTest()[pri:8, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:58 IST" name="outreachVisibilityTest" finished-at="2024-01-22T16:09:59 IST" duration-ms="855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- outreachVisibilityTest -->
+        <test-method signature="eventsTest()[pri:9, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:09:59 IST" name="eventsTest" finished-at="2024-01-22T16:10:02 IST" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eventsTest -->
+        <test-method signature="eventTypeTest()[pri:10, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:02 IST" name="eventTypeTest" finished-at="2024-01-22T16:10:04 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eventTypeTest -->
+        <test-method signature="clickOnWeekdayTest()[pri:11, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:04 IST" name="clickOnWeekdayTest" finished-at="2024-01-22T16:10:04 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnWeekdayTest -->
+        <test-method signature="disabledDateVerifyTest()[pri:12, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:04 IST" name="disabledDateVerifyTest" finished-at="2024-01-22T16:10:04 IST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- disabledDateVerifyTest -->
+        <test-method signature="selectDateTest()[pri:13, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:04 IST" name="selectDateTest" finished-at="2024-01-22T16:10:05 IST" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDateTest -->
+        <test-method signature="clickOnSearchTest()[pri:14, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:05 IST" name="clickOnSearchTest" finished-at="2024-01-22T16:10:08 IST" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchTest -->
+        <test-method signature="defaultLocEventTest()[pri:15, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:08 IST" name="defaultLocEventTest" finished-at="2024-01-22T16:10:09 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultLocEventTest -->
+        <test-method signature="randomLocEventTest()[pri:16, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:09 IST" name="randomLocEventTest" finished-at="2024-01-22T16:10:11 IST" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- randomLocEventTest -->
+        <test-method signature="eventsHeaderTest()[pri:17, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:11 IST" name="eventsHeaderTest" finished-at="2024-01-22T16:10:12 IST" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- eventsHeaderTest -->
+        <test-method signature="donateHeaderTest()[pri:18, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:12 IST" name="donateHeaderTest" finished-at="2024-01-22T16:10:12 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- donateHeaderTest -->
+        <test-method signature="exploreHeaderTest()[pri:19, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:12 IST" name="exploreHeaderTest" finished-at="2024-01-22T16:10:13 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploreHeaderTest -->
+        <test-method signature="readMoreHeaderTest()[pri:20, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:13 IST" name="readMoreHeaderTest" finished-at="2024-01-22T16:10:13 IST" duration-ms="493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readMoreHeaderTest -->
+        <test-method signature="myVolunteerDataTest()[pri:21, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:13 IST" name="myVolunteerDataTest" finished-at="2024-01-22T16:10:14 IST" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myVolunteerDataTest -->
+        <test-method signature="ClickOnGoalsTest()[pri:22, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:14 IST" name="ClickOnGoalsTest" finished-at="2024-01-22T16:10:15 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnGoalsTest -->
+        <test-method signature="myGoalDataTest()[pri:23, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:15 IST" name="myGoalDataTest" finished-at="2024-01-22T16:10:15 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myGoalDataTest -->
+        <test-method signature="pastGoalsDataTest()[pri:24, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:15 IST" name="pastGoalsDataTest" finished-at="2024-01-22T16:10:15 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pastGoalsDataTest -->
+        <test-method signature="clickOnVolunteersAroundMeTest()[pri:25, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:15 IST" name="clickOnVolunteersAroundMeTest" finished-at="2024-01-22T16:10:16 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnVolunteersAroundMeTest -->
+        <test-method signature="appsNameTest()[pri:26, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:16 IST" name="appsNameTest" finished-at="2024-01-22T16:10:16 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appsNameTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.OutreachTest@909217e]" started-at="2024-01-22T16:10:16 IST" name="tearDown" finished-at="2024-01-22T16:10:18 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.OutreachTest -->
+    </test> <!-- Main -->
+  </suite> <!-- Suite -->
+</testng-results>

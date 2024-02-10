@@ -11,9 +11,7 @@
       <class name="TestCases.UI_CheckForInterestRATECalc">
         <methods>
           <include name="setup"/>
-          <include name="setDownPayment_InCalculator"/>
           <include name="implementing_ExcelMethods_toStoreData"/>
-          <include name="setHomeValue_InCalculator"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- TestCases.UI_CheckForInterestRATECalc -->

@@ -1,0 +1,23 @@
+16:09:40.160 [main] INFO  testCases.OutreachTest - ***Clicked on user profile.****
+16:09:40.213 [main] INFO  testCases.OutreachTest - ****Validating User Name ****
+16:09:50.264 [main] INFO  testCases.OutreachTest - ***Validating user email *****
+16:09:50.293 [main] INFO  testCases.OutreachTest - *** Validating the visibility of OneCognizant link *****
+16:09:50.730 [main] INFO  testCases.OutreachTest - ****Clicking on OneCognizant link ****
+16:09:50.863 [main] INFO  testCases.OutreachTest - ****Multiple window handling and switching to 1C on other window****
+16:09:58.320 [main] INFO  testCases.OutreachTest - **** Search for OutReach in the searchbox ****
+16:09:58.810 [main] INFO  testCases.OutreachTest - ****Validating if OutReach is shown or not ****
+16:10:02.071 [main] INFO  testCases.OutreachTest - ****Getting the event titles and store them in strings****
+16:10:02.102 [main] INFO  testCases.OutreachTest - ****Validating the events titles ****
+16:10:02.111 [main] INFO  testCases.OutreachTest - **** Validating if event type is Eductaion ****
+16:10:04.533 [main] INFO  testCases.OutreachTest - ****Validating if weekday is selected or not****
+16:10:04.787 [main] INFO  testCases.OutreachTest - **** Verify if the dates that cannot be selected are properly present or not****
+16:10:04.918 [main] INFO  testCases.OutreachTest - ***Selecting date *****
+16:10:05.310 [main] INFO  testCases.OutreachTest - **** Click on search to search for events ****
+16:10:08.886 [main] INFO  testCases.OutreachTest - ****Validating is Searc Events is showing or not ****
+16:10:08.889 [main] INFO  testCases.OutreachTest - **** Default Location of Event is working or not  ****
+16:10:09.159 [main] INFO  testCases.OutreachTest - **** Random location of Event selected ****
+16:10:14.715 [main] INFO  testCases.OutreachTest - ****Validation of my volunteering profile ****
+16:10:14.960 [main] INFO  testCases.OutreachTest - ****Clock on goals option ****
+16:10:15.038 [main] INFO  testCases.OutreachTest - **** Click on my goal data test ****
+16:10:15.136 [main] INFO  testCases.OutreachTest - ****Past goals data ****
+16:10:15.889 [main] INFO  testCases.OutreachTest - ****Clicking on volunteers around me btn ****

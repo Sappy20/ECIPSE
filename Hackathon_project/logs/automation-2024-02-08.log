@@ -1,42 +1,41 @@
-12:41:36.369 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________ *******
-12:41:36.373 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the value for Fees and Charges charged for LOAN initiation *******
-12:41:36.626 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _________________________________________________ *******
-12:41:36.627 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating the DATA stored in the inputbox *******
-12:41:36.627 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Moving on to the next calculator page  *******
-12:41:36.628 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
-12:41:36.806 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
-12:41:36.806 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** EMI Calculator page is opened for Calculation  *******
-12:41:36.806 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****   ==================================================  *******
-12:41:37.174 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Working on the Second type of Calculator page  *******
-12:41:37.174 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** WORKING ON EMI CALCULATOR  *******
-12:41:37.178 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _________________________________________ *******
-12:41:37.178 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the Loan Amount in the inputbox *******
-12:41:37.560 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating the data shown finally in the inputbox *******
-12:41:37.561 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _______________________________________  ******
-12:41:37.814 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Setting the INTEREST RATE in the inputbox  *******
-12:41:37.815 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _______________________ *******
-12:41:38.120 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating the results shown in the Interest Rate inputbox *******
-12:41:38.160 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _______________________________________________ *******
-12:41:38.393 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the number of YEARS for which the LOAN is being applied for  *******
-12:41:38.675 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _________________________ *******
-12:41:38.708 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Returning the values stored in the inputbox  *******
-12:41:38.966 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ______________________________ *******
-12:41:39.289 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the FEES and CHARGES for applying for the LOAN  *******
-12:41:39.289 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
-12:41:39.324 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Returning the Value stored in the inputbox *******
-12:41:39.324 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________ *******
-12:41:39.568 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ____________________________________  *******
-12:41:39.569 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Moving on to the next page for LOAN Tennure Calculator  *******
-12:41:39.569 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** LOAN tenure Calculator page is opened *******
-12:41:39.724 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****   =============================================   *******
-12:41:40.001 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Working on the THIRD type Calculator  *******
-12:41:40.001 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** LOAN Tenure Calculator TESTING  *******
-12:41:40.003 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _______________________________ *******
-12:41:40.003 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the LOAN Amount in the inputbox *******
-12:41:43.213 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ______________________________ *******
-12:41:43.244 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating the result shown in the inputbox *******
-12:41:43.459 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
-12:41:43.459 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the EMI Amount in the inputbox  *******
-12:41:43.769 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _______________________________ *******
-12:41:43.805 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating the Amountnstores in the inputbox  *******
-12:41:44.030 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  __________________________________ *******
+14:06:24.712 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________ *******
+14:06:24.728 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Navigated to the Loan Calculators Page for UI Testing  *******
+14:06:28.083 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ==================================================  *******
+14:06:28.088 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Working on the 1st TYPE of CALCULATOR  *******
+14:06:28.089 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****   WORKING on LOAN AMOUNT CALCULATOR  *******
+14:06:28.093 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
+14:06:28.093 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ******  ________________________________  ********
+14:06:28.338 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validation Of Loan Amount Calculator links   *******
+14:06:28.338 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating to check whether Element is visible and  clickable or not *******
+14:06:28.338 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________ *******
+14:06:28.343 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  _______________________________ *******
+14:06:28.427 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validation of Loan Amount Calculators link  *******
+14:06:28.427 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating to check whether Element is visible and  clickable or not *******
+14:06:28.428 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________ *******
+14:06:28.431 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________  *******
+14:06:28.530 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validation of Loan Tennure Calculator link *******
+14:06:28.531 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating to check whether Element is visible and  clickable or not *******
+14:06:28.531 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________ *******
+14:06:28.537 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validation of Loan Interest Calculator link   *******
+14:06:28.625 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating to check whether Element is visible and  clickable or not *******
+14:06:28.625 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________ *******
+14:06:28.629 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
+14:06:28.630 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ________________________________ *******
+14:06:28.630 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Providing the value for Fees and Charges charged for LOAN initiation *******
+14:06:29.012 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** _________________________________________________ *******
+14:06:29.012 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Validating the DATA stored in the inputbox *******
+14:06:29.012 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Moving on to the next calculator page  *******
+14:06:29.012 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
+14:06:29.259 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****  *******
+14:06:29.259 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** EMI Calculator page is opened for Calculation  *******
+14:06:29.259 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****   ==================================================  *******
+14:06:29.263 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ____________________________________  *******
+14:06:29.267 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Moving on to the next page for LOAN Tennure Calculator  *******
+14:06:29.267 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** LOAN tenure Calculator page is opened *******
+14:06:29.475 [main] INFO  TestCases.UI_CheckForInterestRATECalc - *****   =============================================   *******
+14:06:29.481 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Navigate to next Type of Calculator by clicking on the link *******
+14:06:29.481 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** Clicking on the INTEREST CALCULATOR *******
+14:06:29.697 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** ___________________________________ *******
+14:06:29.697 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** INTEREST CALCULATOR page is opened  *******
+14:06:29.697 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** =========================================================== *******
+14:06:29.704 [main] INFO  TestCases.UI_CheckForInterestRATECalc - ***** The final outcome is stored and validated after the calculation  *******

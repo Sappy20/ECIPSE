@@ -1,0 +1,210 @@
+<html>
+<head>
+<title>TestNG:  Main</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Main</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 22 16:09:18 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>60 seconds (60130 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.OutreachTest.exploreHeaderTest()'><b>exploreHeaderTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.clickOnVolunteersAroundMeTest()'><b>clickOnVolunteersAroundMeTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.clickon1CTest()'><b>clickon1CTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.getUserNameTest()'><b>getUserNameTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>10</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.eventsTest()'><b>eventsTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.disabledDateVerifyTest()'><b>disabledDateVerifyTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.randomLocEventTest()'><b>randomLocEventTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.readMoreHeaderTest()'><b>readMoreHeaderTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.eventTypeTest()'><b>eventTypeTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.visibilityOf1CTest()'><b>visibilityOf1CTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.donateHeaderTest()'><b>donateHeaderTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.outreachVisibilityTest()'><b>outreachVisibilityTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.searchOutreachTest()'><b>searchOutreachTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.eventsHeaderTest()'><b>eventsHeaderTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.clickOnWeekdayTest()'><b>clickOnWeekdayTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.getUserEmailTest()'><b>getUserEmailTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.appsNameTest()'><b>appsNameTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.clickOnSearchTest()'><b>clickOnSearchTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.pastGoalsDataTest()'><b>pastGoalsDataTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.swithTo1CTest()'><b>swithTo1CTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>7</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.selectDateTest()'><b>selectDateTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.defaultLocEventTest()'><b>defaultLocEventTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.userEleClickTest()'><b>userEleClickTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.myVolunteerDataTest()'><b>myVolunteerDataTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>1</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.myGoalDataTest()'><b>myGoalDataTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+<tr>
+<td title='testCases.OutreachTest.ClickOnGoalsTest()'><b>ClickOnGoalsTest</b><br>Test class: testCases.OutreachTest</td>
+<td></td>
+<td>0</td>
+<td>testCases.OutreachTest@909217e</td></tr>
+</table><p>
+</body>
+</html>
