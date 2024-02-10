@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;opencart_june2023_cucumber&apos;" deleteContents="true" description="Delete resource &apos;opencart_june2023_cucumber&apos;" element1="/opencart_june2023_cucumber" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1707579529260"/>
+</session>

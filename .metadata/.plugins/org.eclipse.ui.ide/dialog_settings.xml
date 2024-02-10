@@ -33,6 +33,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\IMP\Frameworks_UDEMY\video51\opencart_cucumber.zip"/>
 			<item value="C:\Users\2303447\Downloads\SampleProject.zip"/>
 			<item value="C:\Users\2303447\Downloads\cas_abhishek.zip"/>
 			<item value="C:\Users\2303447\OneDrive - Cognizant\Desktop\casProject 1"/>
